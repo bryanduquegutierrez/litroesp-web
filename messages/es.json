@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Litro — Ahorra en cada repostaje y aparcamiento",
+    "description": "Precios de combustible en tiempo real, parkings, planificación de rutas y alertas inteligentes. Toda Europa en una sola app."
+  },
+  "nav": {
+    "features": "Funciones",
+    "download": "Descargar"
+  },
+  "hero": {
+    "kicker": "La app de los conductores inteligentes",
+    "title": "Ahorra en cada litro.",
+    "titleAccent": "En cada plaza.",
+    "subtitle": "Precios de gasolina actualizados, parkings disponibles y planificación de rutas inteligente. Toda Europa en tu bolsillo.",
+    "downloadApple": "Descargar para iOS",
+    "downloadGoogle": "Próximamente en Android",
+    "scroll": "Descubre cómo"
+  },
+  "features": {
+    "sectionTitle": "Todo lo que necesitas para ahorrar.",
+    "sectionSubtitle": "Siete funciones que cambian la forma en la que conduces.",
+    "parking": {
+      "kicker": "Parkings",
+      "title": "Aparca sin vueltas.",
+      "body": "Ubicación en tiempo real de los parkings de todas las ciudades de España. Reserva tu plaza antes de llegar.",
+      "highlights": ["Plazas disponibles al instante", "Reserva anticipada", "Más de 100 ciudades"]
+    },
+    "prices": {
+      "kicker": "Precios actualizados",
+      "title": "Los precios más bajos, a un toque.",
+      "body": "Tarjetas con precios actualizados a diario en España, Francia, Italia, Portugal, Alemania, Austria y Grecia.",
+      "highlights": ["7 países cubiertos", "Datos oficiales", "Actualización diaria"]
+    },
+    "alerts": {
+      "kicker": "Alertas inteligentes",
+      "title": "Avísame cuando baje.",
+      "body": "Configura alertas para que te avisemos en cuanto el combustible baje al precio que tú decidas. Por gasolinera o por zona.",
+      "highlights": ["Notificaciones push", "Alertas por zona", "Sin compromiso"]
+    },
+    "map": {
+      "kicker": "Mapa interactivo",
+      "title": "Todo cerca de ti.",
+      "body": "Pines de gasolineras y parkings cercanos en un mapa fluido. Filtra por marca, precio o disponibilidad.",
+      "highlights": ["Filtro por marca", "Pines en tiempo real", "Modo claro y oscuro"]
+    },
+    "routes": {
+      "kicker": "Rutas inteligentes",
+      "title": "Te llevamos por las más baratas.",
+      "body": "Planifica rutas con hasta 6 paradas en las gasolineras más baratas del recorrido. Ahorra hasta un 15% en cada trayecto.",
+      "highlights": ["Hasta 6 paradas", "Algoritmo óptimo", "Origen personalizable"]
+    },
+    "favorites": {
+      "kicker": "Favoritos",
+      "title": "Tus sitios, siempre a mano.",
+      "body": "Guarda tus gasolineras y parkings favoritos. Acceso rápido y notificaciones especiales.",
+      "highlights": ["Sincronización en la nube", "Comparte fácilmente", "Acceso en un toque"]
+    },
+    "savings": {
+      "kicker": "Tu ahorro",
+      "title": "Mira cuánto llevas ahorrado.",
+      "body": "Un contador que registra cada euro que has ahorrado usando Litro. Porque cada repostaje cuenta.",
+      "highlights": ["Histórico mensual", "Comparativa con media", "Métricas claras"]
+    }
+  },
+  "cta": {
+    "title": "Empieza a ahorrar hoy.",
+    "subtitle": "Litro es gratis. Descárgatela y notarás la diferencia en tu próximo repostaje.",
+    "appStore": "Descargar en App Store",
+    "playStore": "Próximamente en Google Play"
+  },
+  "footer": {
+    "tagline": "Conduce listo, conduce ahorrando.",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos",
+    "contact": "Contacto"
+  }
+}

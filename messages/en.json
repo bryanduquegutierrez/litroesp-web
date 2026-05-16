@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Litro — Save on every fill-up and parking spot",
+    "description": "Real-time fuel prices, parking availability, smart route planning and price alerts. All of Europe in a single app."
+  },
+  "nav": {
+    "features": "Features",
+    "download": "Download"
+  },
+  "hero": {
+    "kicker": "The app for smart drivers",
+    "title": "Save on every liter.",
+    "titleAccent": "On every spot.",
+    "subtitle": "Live fuel prices, available parking lots, and intelligent route planning. All of Europe in your pocket.",
+    "downloadApple": "Download for iOS",
+    "downloadGoogle": "Coming soon to Android",
+    "scroll": "Discover how"
+  },
+  "features": {
+    "sectionTitle": "Everything you need to save.",
+    "sectionSubtitle": "Seven features that change the way you drive.",
+    "parking": {
+      "kicker": "Parking",
+      "title": "Park without circling.",
+      "body": "Real-time location of parking lots across every city in Spain. Reserve your spot before you arrive.",
+      "highlights": ["Live availability", "Advance booking", "100+ cities"]
+    },
+    "prices": {
+      "kicker": "Live prices",
+      "title": "The lowest prices, one tap away.",
+      "body": "Daily updated price cards in Spain, France, Italy, Portugal, Germany, Austria and Greece.",
+      "highlights": ["7 countries covered", "Official data", "Daily updates"]
+    },
+    "alerts": {
+      "kicker": "Smart alerts",
+      "title": "Notify me when it drops.",
+      "body": "Set alerts to be notified the moment fuel drops to your target price. Per station or by area.",
+      "highlights": ["Push notifications", "Area alerts", "No commitment"]
+    },
+    "map": {
+      "kicker": "Interactive map",
+      "title": "Everything around you.",
+      "body": "Pins for nearby gas stations and parking lots on a fluid map. Filter by brand, price or availability.",
+      "highlights": ["Brand filter", "Live pins", "Light & dark mode"]
+    },
+    "routes": {
+      "kicker": "Smart routes",
+      "title": "We take you the cheapest way.",
+      "body": "Plan routes with up to 6 stops at the cheapest stations along the way. Save up to 15% on every trip.",
+      "highlights": ["Up to 6 stops", "Optimal algorithm", "Custom origin"]
+    },
+    "favorites": {
+      "kicker": "Favorites",
+      "title": "Your spots, always close.",
+      "body": "Save your favorite gas stations and parking lots. Quick access and special notifications.",
+      "highlights": ["Cloud sync", "Easy sharing", "One-tap access"]
+    },
+    "savings": {
+      "kicker": "Your savings",
+      "title": "See how much you've saved.",
+      "body": "A counter that tracks every euro you've saved using Litro. Because every fill-up counts.",
+      "highlights": ["Monthly history", "Average comparison", "Clear metrics"]
+    }
+  },
+  "cta": {
+    "title": "Start saving today.",
+    "subtitle": "Litro is free. Download it and feel the difference on your next fill-up.",
+    "appStore": "Download on the App Store",
+    "playStore": "Coming soon to Google Play"
+  },
+  "footer": {
+    "tagline": "Drive smart, drive saving.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy policy",
+    "terms": "Terms",
+    "contact": "Contact"
+  }
+}

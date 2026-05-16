@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Coincide con Colors.light de la app */
+  --bg: #ffffff;
+  --fg: #11181c;
+  --muted: #687076;
+  --line: rgba(17, 24, 28, 0.08);
+  color-scheme: light;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-feature-settings: "ss01", "cv02", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(10, 126, 164, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
