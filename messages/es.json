@@ -3,9 +3,14 @@
     "title": "Litro — Ahorra en cada repostaje y aparcamiento",
     "description": "Precios de combustible en tiempo real, parkings, planificación de rutas y alertas inteligentes. Toda Europa en una sola app."
   },
+  "banner": {
+    "title": "Litro",
+    "tagline": "Tu IA copiloto de ahorro en cada repostaje"
+  },
   "nav": {
     "features": "Funciones",
-    "download": "Descargar"
+    "download": "Descargar",
+    "contact": "Contacto"
   },
   "hero": {
     "kicker": "La app de los conductores inteligentes",
@@ -61,6 +66,17 @@
       "body": "Un contador que registra cada euro que has ahorrado usando Litro. Porque cada repostaje cuenta.",
       "highlights": ["Histórico mensual", "Comparativa con media", "Métricas claras"]
     }
+  },
+  "contact": {
+    "kicker": "Anúnciate en Litro",
+    "title": "Llega a millones de conductores en Europa.",
+    "subtitle": "Parkings, talleres, lavaderos, concesionarios o particulares: si tu negocio quiere visibilidad ante una audiencia europea de conductores activos, hablemos.",
+    "marketStat": "+15 países UE cubiertos",
+    "audienceStat": "Millones de conductores activos",
+    "categoriesTitle": "Pensado para",
+    "categories": ["Parkings", "Talleres mecánicos", "Concesionarios y compraventas", "Lavaderos", "Servicios de movilidad", "Particulares"],
+    "emailLabel": "Escríbenos",
+    "ctaButton": "Contactar"
   },
   "cta": {
     "title": "Empieza a ahorrar hoy.",

@@ -10,7 +10,7 @@ export function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden pt-24">
+    <section className="relative min-h-[80svh] flex items-center justify-center overflow-hidden py-16">
       {/* Fondo decorativo */}
       <div className="absolute inset-0 bg-hero-radial pointer-events-none" />
       <div className="absolute inset-0 pointer-events-none">
@@ -64,17 +64,20 @@ export function Hero() {
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.45 }}
-          className="mt-16 mx-auto max-w-md"
+          className="mt-12 flex justify-center"
         >
-          <div className="relative rounded-[2.5rem] aspect-[9/19] bg-gradient-to-br from-brand-100 to-brand-300 p-3 shadow-2xl shadow-brand-900/20">
+          <div
+            className="relative rounded-[2.5rem] bg-gradient-to-br from-brand-100 to-brand-300 p-2.5 shadow-2xl shadow-brand-900/20 w-full max-w-[260px] sm:max-w-[280px]"
+            style={{ aspectRatio: "1080 / 1920" }}
+          >
             <div className="relative rounded-[2rem] w-full h-full overflow-hidden bg-white">
               <Image
                 src="/assets/hero.png"
                 alt="Litro app"
                 fill
                 priority
-                sizes="(max-width: 768px) 100vw, 400px"
-                className="object-cover"
+                sizes="(max-width: 768px) 260px, 280px"
+                className="object-contain"
               />
             </div>
           </div>

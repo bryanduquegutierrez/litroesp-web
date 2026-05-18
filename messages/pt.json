@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Litro — Poupa em cada abastecimento e estacionamento",
+    "description": "Preços de combustível em tempo real, parques de estacionamento, planeamento de rotas e alertas inteligentes. Toda a Europa numa só app."
+  },
+  "banner": {
+    "title": "Litro",
+    "tagline": "O teu copiloto de IA para poupar em cada abastecimento"
+  },
+  "nav": {
+    "features": "Funcionalidades",
+    "download": "Descarregar",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "kicker": "A app dos condutores inteligentes",
+    "title": "Poupa em cada litro.",
+    "titleAccent": "Em cada lugar.",
+    "subtitle": "Preços de combustível atualizados, parques disponíveis e planeamento inteligente de rotas. Toda a Europa no teu bolso.",
+    "downloadApple": "Descarregar para iOS",
+    "downloadGoogle": "Em breve no Android",
+    "scroll": "Descobre como"
+  },
+  "features": {
+    "sectionTitle": "Tudo o que precisas para poupar.",
+    "sectionSubtitle": "Sete funcionalidades que mudam a forma como conduzes.",
+    "parking": {
+      "kicker": "Estacionamento",
+      "title": "Estaciona sem voltas.",
+      "body": "Localização em tempo real dos parques em todas as cidades de Espanha. Reserva o teu lugar antes de chegar.",
+      "highlights": ["Lugares disponíveis ao instante", "Reserva antecipada", "Mais de 100 cidades"]
+    },
+    "prices": {
+      "kicker": "Preços atualizados",
+      "title": "Os preços mais baixos, a um toque.",
+      "body": "Cartões com preços atualizados diariamente em Espanha, França, Itália, Portugal, Alemanha, Áustria e Grécia.",
+      "highlights": ["7 países cobertos", "Dados oficiais", "Atualização diária"]
+    },
+    "alerts": {
+      "kicker": "Alertas inteligentes",
+      "title": "Avisa-me quando descer.",
+      "body": "Configura alertas para receberes aviso quando o combustível atingir o preço que decidires. Por posto ou por zona.",
+      "highlights": ["Notificações push", "Alertas por zona", "Sem compromisso"]
+    },
+    "map": {
+      "kicker": "Mapa interativo",
+      "title": "Tudo perto de ti.",
+      "body": "Pinos de postos e parques próximos num mapa fluido. Filtra por marca, preço ou disponibilidade.",
+      "highlights": ["Filtro por marca", "Pinos em tempo real", "Modo claro e escuro"]
+    },
+    "routes": {
+      "kicker": "Rotas inteligentes",
+      "title": "Levamos-te pelos postos mais baratos.",
+      "body": "Planeia rotas com até 6 paragens nos postos mais baratos do trajeto. Poupa até 15% em cada viagem.",
+      "highlights": ["Até 6 paragens", "Algoritmo ótimo", "Origem personalizável"]
+    },
+    "favorites": {
+      "kicker": "Favoritos",
+      "title": "Os teus locais, sempre à mão.",
+      "body": "Guarda os teus postos e parques favoritos. Acesso rápido e notificações especiais.",
+      "highlights": ["Sincronização na nuvem", "Partilha fácil", "Acesso num toque"]
+    },
+    "savings": {
+      "kicker": "A tua poupança",
+      "title": "Vê quanto já poupaste.",
+      "body": "Um contador que regista cada euro que poupaste com a Litro. Porque cada abastecimento conta.",
+      "highlights": ["Histórico mensal", "Comparativa com a média", "Métricas claras"]
+    }
+  },
+  "contact": {
+    "kicker": "Anuncia na Litro",
+    "title": "Chega a milhões de condutores na Europa.",
+    "subtitle": "Parques de estacionamento, oficinas, lavagens, stands ou particulares: se o teu negócio quer visibilidade junto de uma audiência europeia de condutores ativos, fala connosco.",
+    "marketStat": "Mais de 15 países UE cobertos",
+    "audienceStat": "Milhões de condutores ativos",
+    "categoriesTitle": "Pensado para",
+    "categories": ["Parques de estacionamento", "Oficinas mecânicas", "Stands e revendedores", "Lavagens", "Serviços de mobilidade", "Particulares"],
+    "emailLabel": "Escreve-nos",
+    "ctaButton": "Contactar"
+  },
+  "cta": {
+    "title": "Começa a poupar hoje.",
+    "subtitle": "A Litro é gratuita. Descarrega-a e nota a diferença no próximo abastecimento.",
+    "appStore": "Descarregar na App Store",
+    "playStore": "Em breve no Google Play"
+  },
+  "footer": {
+    "tagline": "Conduz esperto, conduz a poupar.",
+    "rights": "Todos os direitos reservados.",
+    "privacy": "Política de privacidade",
+    "terms": "Termos",
+    "contact": "Contacto"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Litro — Risparmia su ogni rifornimento e parcheggio",
+    "description": "Prezzi del carburante in tempo reale, parcheggi, pianificazione percorsi e avvisi intelligenti. Tutta Europa in una sola app."
+  },
+  "banner": {
+    "title": "Litro",
+    "tagline": "Il tuo copilota IA per risparmiare a ogni rifornimento"
+  },
+  "nav": {
+    "features": "Funzioni",
+    "download": "Scarica",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "kicker": "L'app per chi guida con intelligenza",
+    "title": "Risparmia su ogni litro.",
+    "titleAccent": "Su ogni posto.",
+    "subtitle": "Prezzi carburante aggiornati, parcheggi disponibili e pianificazione percorsi intelligente. Tutta Europa in tasca.",
+    "downloadApple": "Scarica per iOS",
+    "downloadGoogle": "Presto su Android",
+    "scroll": "Scopri come"
+  },
+  "features": {
+    "sectionTitle": "Tutto ciò che serve per risparmiare.",
+    "sectionSubtitle": "Sette funzioni che cambiano il modo in cui guidi.",
+    "parking": {
+      "kicker": "Parcheggi",
+      "title": "Parcheggia senza girare.",
+      "body": "Posizione in tempo reale dei parcheggi in tutte le città della Spagna. Prenota il tuo posto prima di arrivare.",
+      "highlights": ["Posti disponibili in tempo reale", "Prenotazione anticipata", "Più di 100 città"]
+    },
+    "prices": {
+      "kicker": "Prezzi aggiornati",
+      "title": "I prezzi più bassi, a un tocco.",
+      "body": "Schede con prezzi aggiornati ogni giorno in Spagna, Francia, Italia, Portogallo, Germania, Austria e Grecia.",
+      "highlights": ["7 paesi coperti", "Dati ufficiali", "Aggiornamento giornaliero"]
+    },
+    "alerts": {
+      "kicker": "Avvisi intelligenti",
+      "title": "Avvisami quando scende.",
+      "body": "Imposta avvisi e ti diremo quando il carburante scende al prezzo che decidi tu. Per stazione o per zona.",
+      "highlights": ["Notifiche push", "Avvisi per zona", "Senza impegno"]
+    },
+    "map": {
+      "kicker": "Mappa interattiva",
+      "title": "Tutto vicino a te.",
+      "body": "Pin di stazioni e parcheggi vicini su una mappa fluida. Filtra per marchio, prezzo o disponibilità.",
+      "highlights": ["Filtro per marchio", "Pin in tempo reale", "Modalità chiara e scura"]
+    },
+    "routes": {
+      "kicker": "Percorsi intelligenti",
+      "title": "Ti portiamo per le stazioni più convenienti.",
+      "body": "Pianifica percorsi con fino a 6 soste nelle stazioni più economiche del tragitto. Risparmia fino al 15% per viaggio.",
+      "highlights": ["Fino a 6 soste", "Algoritmo ottimale", "Origine personalizzabile"]
+    },
+    "favorites": {
+      "kicker": "Preferiti",
+      "title": "I tuoi posti, sempre a portata.",
+      "body": "Salva le tue stazioni e i tuoi parcheggi preferiti. Accesso rapido e notifiche speciali.",
+      "highlights": ["Sincronizzazione cloud", "Condivisione facile", "Accesso in un tocco"]
+    },
+    "savings": {
+      "kicker": "Il tuo risparmio",
+      "title": "Guarda quanto hai risparmiato.",
+      "body": "Un contatore che registra ogni euro che hai risparmiato con Litro. Perché ogni rifornimento conta.",
+      "highlights": ["Storico mensile", "Confronto con la media", "Metriche chiare"]
+    }
+  },
+  "contact": {
+    "kicker": "Promuoviti su Litro",
+    "title": "Raggiungi milioni di conducenti in Europa.",
+    "subtitle": "Parcheggi, officine, autolavaggi, concessionarie o privati: se la tua attività vuole visibilità davanti a un pubblico europeo di conducenti attivi, parliamone.",
+    "marketStat": "Oltre 15 paesi UE coperti",
+    "audienceStat": "Milioni di conducenti attivi",
+    "categoriesTitle": "Pensato per",
+    "categories": ["Parcheggi", "Officine meccaniche", "Concessionarie e rivenditori", "Autolavaggi", "Servizi di mobilità", "Privati"],
+    "emailLabel": "Scrivici",
+    "ctaButton": "Contattaci"
+  },
+  "cta": {
+    "title": "Inizia a risparmiare oggi.",
+    "subtitle": "Litro è gratis. Scaricala e sentirai la differenza al prossimo rifornimento.",
+    "appStore": "Scarica su App Store",
+    "playStore": "Presto su Google Play"
+  },
+  "footer": {
+    "tagline": "Guida furbo, guida risparmiando.",
+    "rights": "Tutti i diritti riservati.",
+    "privacy": "Informativa privacy",
+    "terms": "Termini",
+    "contact": "Contatti"
+  }
+}

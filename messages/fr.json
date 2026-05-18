@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Litro — Économisez à chaque plein et chaque place",
+    "description": "Prix des carburants en temps réel, parkings, planification de trajets et alertes intelligentes. Toute l'Europe dans une seule app."
+  },
+  "banner": {
+    "title": "Litro",
+    "tagline": "Votre copilote IA pour économiser à chaque plein"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "download": "Télécharger",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "L'app des conducteurs intelligents",
+    "title": "Économisez à chaque litre.",
+    "titleAccent": "À chaque place.",
+    "subtitle": "Prix de carburant actualisés, parkings disponibles et planification de trajets intelligente. Toute l'Europe dans votre poche.",
+    "downloadApple": "Télécharger pour iOS",
+    "downloadGoogle": "Bientôt sur Android",
+    "scroll": "Découvrez comment"
+  },
+  "features": {
+    "sectionTitle": "Tout ce dont vous avez besoin pour économiser.",
+    "sectionSubtitle": "Sept fonctionnalités qui changent votre façon de conduire.",
+    "parking": {
+      "kicker": "Parkings",
+      "title": "Garez-vous sans tourner.",
+      "body": "Localisation en temps réel des parkings dans toutes les villes d'Espagne. Réservez votre place avant d'arriver.",
+      "highlights": ["Places disponibles à l'instant", "Réservation anticipée", "Plus de 100 villes"]
+    },
+    "prices": {
+      "kicker": "Prix actualisés",
+      "title": "Les prix les plus bas, en un toucher.",
+      "body": "Fiches avec prix mis à jour quotidiennement en Espagne, France, Italie, Portugal, Allemagne, Autriche et Grèce.",
+      "highlights": ["7 pays couverts", "Données officielles", "Mise à jour quotidienne"]
+    },
+    "alerts": {
+      "kicker": "Alertes intelligentes",
+      "title": "Préviens-moi quand ça baisse.",
+      "body": "Configurez des alertes pour être averti dès que le carburant atteint le prix que vous choisissez. Par station ou par zone.",
+      "highlights": ["Notifications push", "Alertes par zone", "Sans engagement"]
+    },
+    "map": {
+      "kicker": "Carte interactive",
+      "title": "Tout près de vous.",
+      "body": "Épingles de stations et parkings proches sur une carte fluide. Filtrez par marque, prix ou disponibilité.",
+      "highlights": ["Filtre par marque", "Épingles en temps réel", "Mode clair et sombre"]
+    },
+    "routes": {
+      "kicker": "Itinéraires intelligents",
+      "title": "On vous emmène par les moins chers.",
+      "body": "Planifiez des trajets avec jusqu'à 6 arrêts dans les stations les moins chères. Économisez jusqu'à 15% par trajet.",
+      "highlights": ["Jusqu'à 6 arrêts", "Algorithme optimal", "Origine personnalisable"]
+    },
+    "favorites": {
+      "kicker": "Favoris",
+      "title": "Vos endroits, toujours à portée.",
+      "body": "Enregistrez vos stations et parkings favoris. Accès rapide et notifications spéciales.",
+      "highlights": ["Synchronisation cloud", "Partage facile", "Accès en un toucher"]
+    },
+    "savings": {
+      "kicker": "Vos économies",
+      "title": "Voyez tout ce que vous avez économisé.",
+      "body": "Un compteur qui enregistre chaque euro économisé avec Litro. Parce que chaque plein compte.",
+      "highlights": ["Historique mensuel", "Comparaison avec la moyenne", "Métriques claires"]
+    }
+  },
+  "contact": {
+    "kicker": "Annoncez sur Litro",
+    "title": "Atteignez des millions de conducteurs en Europe.",
+    "subtitle": "Parkings, garages, lavages, concessions ou particuliers : si votre activité veut de la visibilité face à une audience européenne de conducteurs actifs, parlons-en.",
+    "marketStat": "Plus de 15 pays UE couverts",
+    "audienceStat": "Des millions de conducteurs actifs",
+    "categoriesTitle": "Pensé pour",
+    "categories": ["Parkings", "Garages et mécaniciens", "Concessions et revendeurs", "Lavages auto", "Services de mobilité", "Particuliers"],
+    "emailLabel": "Écrivez-nous",
+    "ctaButton": "Nous contacter"
+  },
+  "cta": {
+    "title": "Commencez à économiser aujourd'hui.",
+    "subtitle": "Litro est gratuite. Téléchargez-la et sentez la différence dès votre prochain plein.",
+    "appStore": "Télécharger sur l'App Store",
+    "playStore": "Bientôt sur Google Play"
+  },
+  "footer": {
+    "tagline": "Conduisez malin, conduisez en économisant.",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions",
+    "contact": "Contact"
+  }
+}

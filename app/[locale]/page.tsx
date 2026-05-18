@@ -1,3 +1,5 @@
+import { Banner } from "./components/Banner";
+import { Contact } from "./components/Contact";
 import { CTA } from "./components/CTA";
 import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
@@ -8,8 +10,10 @@ export default function HomePage() {
   return (
     <main className="min-h-screen">
       <Nav />
+      <Banner />
       <Hero />
       <Features />
+      <Contact />
       <CTA />
       <Footer />
     </main>

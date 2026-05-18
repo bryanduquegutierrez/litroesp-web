@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Litro — Sparen bei jedem Tankvorgang und Parkplatz",
+    "description": "Kraftstoffpreise in Echtzeit, Parkplätze, Routenplanung und intelligente Benachrichtigungen. Ganz Europa in einer App."
+  },
+  "banner": {
+    "title": "Litro",
+    "tagline": "Dein KI-Copilot zum Sparen bei jedem Tankvorgang"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "download": "Download",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "kicker": "Die App für clevere Fahrer",
+    "title": "Spare bei jedem Liter.",
+    "titleAccent": "Bei jedem Platz.",
+    "subtitle": "Aktuelle Kraftstoffpreise, verfügbare Parkplätze und intelligente Routenplanung. Ganz Europa in deiner Tasche.",
+    "downloadApple": "Für iOS herunterladen",
+    "downloadGoogle": "Demnächst für Android",
+    "scroll": "So funktioniert's"
+  },
+  "features": {
+    "sectionTitle": "Alles, was du zum Sparen brauchst.",
+    "sectionSubtitle": "Sieben Funktionen, die deine Fahrweise verändern.",
+    "parking": {
+      "kicker": "Parkplätze",
+      "title": "Parken ohne Suchen.",
+      "body": "Echtzeit-Standort von Parkplätzen in allen spanischen Städten. Reserviere deinen Platz, bevor du ankommst.",
+      "highlights": ["Sofort verfügbare Plätze", "Vorab-Reservierung", "Über 100 Städte"]
+    },
+    "prices": {
+      "kicker": "Aktuelle Preise",
+      "title": "Die günstigsten Preise mit einem Tipp.",
+      "body": "Täglich aktualisierte Preiskarten für Spanien, Frankreich, Italien, Portugal, Deutschland, Österreich und Griechenland.",
+      "highlights": ["7 Länder abgedeckt", "Offizielle Daten", "Tägliche Aktualisierung"]
+    },
+    "alerts": {
+      "kicker": "Intelligente Benachrichtigungen",
+      "title": "Sag mir, wenn er sinkt.",
+      "body": "Stelle Benachrichtigungen ein und wir melden uns, sobald der Kraftstoff deinen Wunschpreis erreicht. Pro Tankstelle oder pro Gebiet.",
+      "highlights": ["Push-Benachrichtigungen", "Gebiets-Alerts", "Keine Verpflichtung"]
+    },
+    "map": {
+      "kicker": "Interaktive Karte",
+      "title": "Alles in deiner Nähe.",
+      "body": "Pins von Tankstellen und Parkplätzen auf einer flüssigen Karte. Filtere nach Marke, Preis oder Verfügbarkeit.",
+      "highlights": ["Markenfilter", "Echtzeit-Pins", "Hell- und Dunkelmodus"]
+    },
+    "routes": {
+      "kicker": "Intelligente Routen",
+      "title": "Wir führen dich zu den günstigsten.",
+      "body": "Plane Routen mit bis zu 6 Stopps an den günstigsten Tankstellen unterwegs. Spare bis zu 15% pro Fahrt.",
+      "highlights": ["Bis zu 6 Stopps", "Optimaler Algorithmus", "Anpassbarer Startpunkt"]
+    },
+    "favorites": {
+      "kicker": "Favoriten",
+      "title": "Deine Orte, immer zur Hand.",
+      "body": "Speichere deine Lieblings-Tankstellen und Parkplätze. Schneller Zugriff und besondere Benachrichtigungen.",
+      "highlights": ["Cloud-Synchronisation", "Einfaches Teilen", "Zugriff mit einem Tipp"]
+    },
+    "savings": {
+      "kicker": "Deine Ersparnis",
+      "title": "Sieh, wie viel du gespart hast.",
+      "body": "Ein Zähler, der jeden Euro festhält, den du mit Litro gespart hast. Denn jeder Tankvorgang zählt.",
+      "highlights": ["Monatlicher Verlauf", "Vergleich mit dem Durchschnitt", "Klare Metriken"]
+    }
+  },
+  "contact": {
+    "kicker": "Wirb auf Litro",
+    "title": "Erreiche Millionen Autofahrer in ganz Europa.",
+    "subtitle": "Parkplätze, Werkstätten, Waschanlagen, Autohäuser oder Privatpersonen: Wenn dein Unternehmen Sichtbarkeit vor einem europäischen Publikum aktiver Autofahrer möchte, lass uns reden.",
+    "marketStat": "Über 15 EU-Länder abgedeckt",
+    "audienceStat": "Millionen aktive Autofahrer",
+    "categoriesTitle": "Gemacht für",
+    "categories": ["Parkplätze", "Werkstätten", "Autohäuser und Händler", "Waschanlagen", "Mobilitätsdienste", "Privatpersonen"],
+    "emailLabel": "Schreib uns",
+    "ctaButton": "Kontaktieren"
+  },
+  "cta": {
+    "title": "Fang heute an zu sparen.",
+    "subtitle": "Litro ist kostenlos. Lade sie herunter und du wirst den Unterschied beim nächsten Tankvorgang spüren.",
+    "appStore": "Im App Store laden",
+    "playStore": "Demnächst bei Google Play"
+  },
+  "footer": {
+    "tagline": "Klug fahren, sparend fahren.",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Bedingungen",
+    "contact": "Kontakt"
+  }
+}

@@ -37,6 +37,12 @@ export function Nav() {
             {t("features")}
           </a>
           <a
+            href="#contact"
+            className="text-sm text-[color:var(--muted)] hover:text-[color:var(--fg)] transition-colors hidden sm:block"
+          >
+            {t("contact")}
+          </a>
+          <a
             href="#download"
             className="text-sm text-[color:var(--muted)] hover:text-[color:var(--fg)] transition-colors hidden sm:block"
           >

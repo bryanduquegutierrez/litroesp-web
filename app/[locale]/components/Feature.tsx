@@ -76,23 +76,25 @@ export function Feature({
             </ul>
           </motion.div>
 
-          {/* Imagen */}
+          {/* Imagen — phone mockup proporcional al ratio nativo (1242×2688) */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.1 }}
+            className="flex justify-center"
           >
             <div
-              className={`relative rounded-[2.5rem] aspect-[4/5] bg-gradient-to-br ${ACCENT_BG[accent]} p-3 shadow-2xl shadow-black/10`}
+              className={`relative rounded-[2.5rem] bg-gradient-to-br ${ACCENT_BG[accent]} p-2.5 shadow-2xl shadow-black/10 w-full max-w-[260px] sm:max-w-[280px]`}
+              style={{ aspectRatio: "1242 / 2688" }}
             >
               <div className="relative rounded-[2rem] w-full h-full overflow-hidden bg-white">
                 <Image
                   src={imageSrc}
                   alt={imageAlt}
                   fill
-                  sizes="(max-width: 1024px) 100vw, 500px"
-                  className="object-cover"
+                  sizes="(max-width: 1024px) 260px, 280px"
+                  className="object-contain"
                 />
               </div>
             </div>
