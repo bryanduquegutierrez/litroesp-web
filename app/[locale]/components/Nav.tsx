@@ -1,12 +1,13 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 
 export function Nav() {
   const t = useTranslations("nav");
+  const locale = useLocale();
   // `scrolled` = el usuario ya ha pasado la cabecera (Banner) con fondo del tema.
   // Threshold ~180px cubre todo el alto del Banner.
   const [scrolled, setScrolled] = useState(false);
@@ -43,15 +44,18 @@ export function Nav() {
           </Link>
         </div>
 
-        {/* Enlaces (centro) */}
+        {/* Enlaces (centro). Privacidad va el primero, fuera del flujo on-page */}
         <div className="flex items-center justify-center gap-6">
-          <a href="#features" className={linkClass}>
+          <Link href={`/${locale}/privacy`} className={linkClass}>
+            {t("privacy")}
+          </Link>
+          <a href="/#features" className={linkClass}>
             {t("features")}
           </a>
-          <a href="#contact" className={linkClass}>
+          <a href="/#contact" className={linkClass}>
             {t("contact")}
           </a>
-          <a href="#download" className={linkClass}>
+          <a href="/#download" className={linkClass}>
             {t("download")}
           </a>
         </div>

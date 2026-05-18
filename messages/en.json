@@ -10,7 +10,68 @@
   "nav": {
     "features": "Features",
     "download": "Download",
-    "contact": "Contact"
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "privacy": {
+    "kicker": "Your privacy",
+    "title": "Privacy policy",
+    "subtitle": "How we collect, use and protect your data in Litro App.",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdatedDate": "May 18, 2026",
+    "toc": "Table of contents",
+    "backHome": "Back to home",
+    "contactPrompt": "Questions about your data? Write us at",
+    "s1": {
+      "title": "Data we collect",
+      "items": [
+        "User account: email and password (or login token with Google/Apple). Optionally, your vehicle's license plate.",
+        "Location: device GPS coordinates, used exclusively to show you nearby gas stations and parking lots. We do not store your location history.",
+        "Favorites: the parking lots and gas stations you mark as favorites are saved against your account so they sync across sessions.",
+        "Payment data: parking reservation transactions are processed through Stripe. We do not store or have access to your credit or debit card data."
+      ]
+    },
+    "s2": {
+      "title": "How we use your data",
+      "items": [
+        "Show you nearby gas stations and parking lots based on your location.",
+        "Calculate optimal routes and distances.",
+        "Save your preferences (default fuel, search radius, visual theme).",
+        "Manage your account and authentication.",
+        "Process parking reservations."
+      ]
+    },
+    "s3": {
+      "title": "Third-party services",
+      "intro": "The application uses the following external services:"
+    },
+    "s4": {
+      "title": "Storage and security",
+      "body": "Your data is stored on secure servers managed by Supabase with encryption in transit (TLS) and at rest. Passwords are stored using secure hashing and never in plain text. Session tokens are saved securely in the device's local storage."
+    },
+    "s5": {
+      "title": "Data retention",
+      "body": "We keep your data while you maintain an active account in the app. You can request the complete deletion of your account and all associated data at any time by writing to the address shown below."
+    },
+    "s6": {
+      "title": "Your rights",
+      "intro": "Under the General Data Protection Regulation (GDPR) and applicable Spanish law, you have the right to:",
+      "items": [
+        "Access your personal data.",
+        "Rectify inaccurate data.",
+        "Request the deletion of your data.",
+        "Object to the processing of your data.",
+        "Request the portability of your data."
+      ]
+    },
+    "s7": {
+      "title": "Minors' data",
+      "body": "Litro App is not directed at children under 16. We do not knowingly collect data from minors. If we discover that we have collected data from a minor, we will delete it immediately."
+    },
+    "s8": {
+      "title": "Changes to this policy",
+      "body": "We may update this policy occasionally. We will notify you of any significant changes through the app or by email. The last updated date is shown at the top of this document."
+    }
   },
   "europeHero": {
     "kicker": "15 EU countries integrated",

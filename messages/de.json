@@ -10,7 +10,68 @@
   "nav": {
     "features": "Funktionen",
     "download": "Download",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "privacy": "Datenschutz"
+  },
+  "privacy": {
+    "kicker": "Dein Datenschutz",
+    "title": "Datenschutzrichtlinie",
+    "subtitle": "Wie wir deine Daten in der Litro App erfassen, nutzen und schützen.",
+    "lastUpdatedLabel": "Letzte Aktualisierung",
+    "lastUpdatedDate": "18. Mai 2026",
+    "toc": "Inhalt",
+    "backHome": "Zurück zur Startseite",
+    "contactPrompt": "Fragen zu deinen Daten? Schreib uns an",
+    "s1": {
+      "title": "Daten, die wir erfassen",
+      "items": [
+        "Nutzerkonto: E-Mail und Passwort (oder Anmelde-Token für Google/Apple). Optional das Kennzeichen deines Fahrzeugs.",
+        "Standort: GPS-Koordinaten des Geräts, ausschließlich verwendet, um dir Tankstellen und Parkplätze in der Nähe anzuzeigen. Wir speichern keinen Standortverlauf.",
+        "Favoriten: die Parkplätze und Tankstellen, die du als Favoriten markierst, werden mit deinem Konto gespeichert, um sie zwischen Sitzungen zu synchronisieren.",
+        "Zahlungsdaten: Parkreservierungstransaktionen werden über Stripe abgewickelt. Wir speichern keine Kredit- oder Debitkartendaten und haben keinen Zugriff darauf."
+      ]
+    },
+    "s2": {
+      "title": "Wie wir deine Daten nutzen",
+      "items": [
+        "Anzeigen von Tankstellen und Parkplätzen in deiner Nähe basierend auf deinem Standort.",
+        "Berechnung optimaler Routen und Entfernungen.",
+        "Speichern deiner Einstellungen (Standard-Kraftstoff, Suchradius, Designthema).",
+        "Verwaltung deines Kontos und der Authentifizierung.",
+        "Verarbeitung von Parkplatzreservierungen."
+      ]
+    },
+    "s3": {
+      "title": "Dienste Dritter",
+      "intro": "Die Anwendung nutzt folgende externe Dienste:"
+    },
+    "s4": {
+      "title": "Speicherung und Sicherheit",
+      "body": "Deine Daten werden auf sicheren, von Supabase verwalteten Servern mit Verschlüsselung bei der Übertragung (TLS) und im Ruhezustand gespeichert. Passwörter werden mit sicherem Hashing und niemals im Klartext gespeichert. Sitzungs-Tokens werden sicher im lokalen Speicher des Geräts abgelegt."
+    },
+    "s5": {
+      "title": "Aufbewahrung der Daten",
+      "body": "Wir bewahren deine Daten auf, solange du ein aktives Konto in der App hast. Du kannst jederzeit die vollständige Löschung deines Kontos und aller zugehörigen Daten anfordern, indem du an die unten angegebene Adresse schreibst."
+    },
+    "s6": {
+      "title": "Deine Rechte",
+      "intro": "Gemäß der Datenschutz-Grundverordnung (DSGVO) und der geltenden Gesetzgebung hast du das Recht:",
+      "items": [
+        "Auf deine personenbezogenen Daten zuzugreifen.",
+        "Unrichtige Daten zu berichtigen.",
+        "Die Löschung deiner Daten zu verlangen.",
+        "Der Verarbeitung deiner Daten zu widersprechen.",
+        "Die Übertragbarkeit deiner Daten zu verlangen."
+      ]
+    },
+    "s7": {
+      "title": "Daten von Minderjährigen",
+      "body": "Litro App richtet sich nicht an Minderjährige unter 16 Jahren. Wir erfassen wissentlich keine Daten von Minderjährigen. Sollten wir feststellen, dass wir Daten eines Minderjährigen erfasst haben, löschen wir diese unverzüglich."
+    },
+    "s8": {
+      "title": "Änderungen dieser Richtlinie",
+      "body": "Wir können diese Richtlinie gelegentlich aktualisieren. Wir werden dich über wesentliche Änderungen über die App oder per E-Mail informieren. Das Datum der letzten Aktualisierung ist am Anfang dieses Dokuments angegeben."
+    }
   },
   "europeHero": {
     "kicker": "15 EU-Länder integriert",
