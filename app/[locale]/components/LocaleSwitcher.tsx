@@ -14,7 +14,7 @@ const LOCALES = [
   { code: "de", label: "DE", flag: "🇩🇪" },
 ] as const;
 
-export function LocaleSwitcher() {
+export function LocaleSwitcher({ scrolled = true }: { scrolled?: boolean } = {}) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -48,7 +48,11 @@ export function LocaleSwitcher() {
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1.5 text-sm font-medium px-3 py-1.5 rounded-full border border-black/10 hover:bg-black/5 transition-colors"
+        className={`flex items-center gap-1.5 text-sm font-medium px-3 py-1.5 rounded-full border transition-colors ${
+          scrolled
+            ? "text-[color:var(--fg)] border-black/10 hover:bg-black/5"
+            : "text-white border-white/30 hover:bg-white/10"
+        }`}
         aria-label="Cambiar idioma"
       >
         <span className="text-base leading-none">{current.flag}</span>
