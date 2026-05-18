@@ -74,9 +74,9 @@
     }
   },
   "europeHero": {
-    "kicker": "15 pays UE intégrés",
+    "kicker": "23 pays UE intégrés",
     "title": "Pour vous aider à économiser à chaque km d'Europe.",
-    "subtitle": "Prix officiels de carburant actualisés chaque jour dans les 15 pays où nous opérons. Et on continue.",
+    "subtitle": "Prix officiels de carburant actualisés chaque jour dans les 23 pays où nous opérons. Et on continue.",
     "legendCovered": "{n} pays couverts",
     "legendOther": "Bientôt"
   },
@@ -101,8 +101,8 @@
     "prices": {
       "kicker": "Prix actualisés",
       "title": "Les prix les plus bas, en un toucher.",
-      "body": "Fiches avec prix mis à jour quotidiennement en Espagne, France, Italie, Portugal, Allemagne, Autriche et Grèce.",
-      "highlights": ["7 pays couverts", "Données officielles", "Mise à jour quotidienne"]
+      "body": "Fiches avec prix mis à jour quotidiennement dans 23 pays de l'UE : du Portugal à la Finlande, en passant par l'Allemagne, la Pologne et les pays baltes.",
+      "highlights": ["23 pays UE couverts", "Données officielles par station", "Mise à jour quotidienne"]
     },
     "alerts": {
       "kicker": "Alertes intelligentes",

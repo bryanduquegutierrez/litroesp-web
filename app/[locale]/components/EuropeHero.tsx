@@ -9,6 +9,7 @@ import type { FeatureCollection, Feature, Geometry } from "geojson";
 const SUPPORTED_COUNTRIES = new Set([
   "es", "fr", "it", "pt", "at", "gr", "de",
   "si", "be", "nl", "lu", "se", "dk", "sk", "cz",
+  "ro", "bg", "ee", "lv", "lt", "hu", "pl", "fi",
 ]);
 
 // El TopoJSON de leakyMirror solo tiene NAME (sin ISO).

@@ -74,9 +74,9 @@
     }
   },
   "europeHero": {
-    "kicker": "15 EU countries integrated",
+    "kicker": "23 EU countries integrated",
     "title": "Helping you save on every km across Europe.",
-    "subtitle": "Daily-updated official fuel prices across the 15 countries we already cover. And more on the way.",
+    "subtitle": "Daily-updated official fuel prices across the 23 countries we already cover. And more on the way.",
     "legendCovered": "{n} countries covered",
     "legendOther": "Coming soon"
   },
@@ -101,8 +101,8 @@
     "prices": {
       "kicker": "Live prices",
       "title": "The cheapest prices, one tap away.",
-      "body": "Daily-updated price cards across Spain, France, Italy, Portugal, Germany, Austria and Greece.",
-      "highlights": ["7 countries", "Official data", "Daily updates"]
+      "body": "Daily-updated price cards across 23 EU countries: from Portugal to Finland, including Germany, Poland and the Baltic states.",
+      "highlights": ["23 EU countries covered", "Official per-station data", "Daily updates"]
     },
     "alerts": {
       "kicker": "Smart alerts",

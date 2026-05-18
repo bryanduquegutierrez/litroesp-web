@@ -74,9 +74,9 @@
     }
   },
   "europeHero": {
-    "kicker": "15 países da UE integrados",
+    "kicker": "23 países da UE integrados",
     "title": "A ajudar-te a poupar em cada km da Europa.",
-    "subtitle": "Preços oficiais de combustível atualizados diariamente nos 15 países onde já operamos. E continuamos a somar.",
+    "subtitle": "Preços oficiais de combustível atualizados diariamente nos 23 países onde já operamos. E continuamos a somar.",
     "legendCovered": "{n} países cobertos",
     "legendOther": "Em breve"
   },
@@ -101,8 +101,8 @@
     "prices": {
       "kicker": "Preços atualizados",
       "title": "Os preços mais baixos, a um toque.",
-      "body": "Cartões com preços atualizados diariamente em Espanha, França, Itália, Portugal, Alemanha, Áustria e Grécia.",
-      "highlights": ["7 países cobertos", "Dados oficiais", "Atualização diária"]
+      "body": "Cartões com preços atualizados diariamente em 23 países da UE: de Portugal à Finlândia, passando pela Alemanha, Polónia e países bálticos.",
+      "highlights": ["23 países UE cobertos", "Dados oficiais por estação", "Atualização diária"]
     },
     "alerts": {
       "kicker": "Alertas inteligentes",
