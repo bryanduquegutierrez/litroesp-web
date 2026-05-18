@@ -12,6 +12,13 @@
     "download": "Télécharger",
     "contact": "Contact"
   },
+  "europeHero": {
+    "kicker": "15 pays UE intégrés",
+    "title": "Pour vous aider à économiser à chaque km d'Europe.",
+    "subtitle": "Prix officiels de carburant actualisés chaque jour dans les 15 pays où nous opérons. Et on continue.",
+    "legendCovered": "{n} pays couverts",
+    "legendOther": "Bientôt"
+  },
   "hero": {
     "kicker": "L'app des conducteurs intelligents",
     "title": "Économisez à chaque litre.",

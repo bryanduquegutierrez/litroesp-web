@@ -12,6 +12,13 @@
     "download": "Download",
     "contact": "Contact"
   },
+  "europeHero": {
+    "kicker": "15 EU countries integrated",
+    "title": "Helping you save on every km across Europe.",
+    "subtitle": "Daily-updated official fuel prices across the 15 countries we already cover. And more on the way.",
+    "legendCovered": "{n} countries covered",
+    "legendOther": "Coming soon"
+  },
   "hero": {
     "kicker": "The app for smart drivers",
     "title": "Save on every litre.",

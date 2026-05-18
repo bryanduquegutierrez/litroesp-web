@@ -12,6 +12,13 @@
     "download": "Descarregar",
     "contact": "Contacto"
   },
+  "europeHero": {
+    "kicker": "15 países da UE integrados",
+    "title": "A ajudar-te a poupar em cada km da Europa.",
+    "subtitle": "Preços oficiais de combustível atualizados diariamente nos 15 países onde já operamos. E continuamos a somar.",
+    "legendCovered": "{n} países cobertos",
+    "legendOther": "Em breve"
+  },
   "hero": {
     "kicker": "A app dos condutores inteligentes",
     "title": "Poupa em cada litro.",

@@ -1,9 +1,9 @@
 import { Banner } from "./components/Banner";
 import { Contact } from "./components/Contact";
 import { CTA } from "./components/CTA";
+import { EuropeHero } from "./components/EuropeHero";
 import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
-import { Hero } from "./components/Hero";
 import { Nav } from "./components/Nav";
 
 export default function HomePage() {
@@ -11,7 +11,7 @@ export default function HomePage() {
     <main className="min-h-screen">
       <Nav />
       <Banner />
-      <Hero />
+      <EuropeHero />
       <Features />
       <Contact />
       <CTA />

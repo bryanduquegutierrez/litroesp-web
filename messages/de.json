@@ -12,6 +12,13 @@
     "download": "Download",
     "contact": "Kontakt"
   },
+  "europeHero": {
+    "kicker": "15 EU-Länder integriert",
+    "title": "Wir helfen dir, bei jedem km in Europa zu sparen.",
+    "subtitle": "Täglich aktualisierte offizielle Kraftstoffpreise in den 15 Ländern, in denen wir bereits aktiv sind. Und wir wachsen weiter.",
+    "legendCovered": "{n} Länder abgedeckt",
+    "legendOther": "Demnächst"
+  },
   "hero": {
     "kicker": "Die App für clevere Fahrer",
     "title": "Spare bei jedem Liter.",
