@@ -5,6 +5,7 @@ import { EuropeHero } from "./components/EuropeHero";
 import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
 import { Nav } from "./components/Nav";
+import { Stats } from "./components/Stats";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Banner />
       <EuropeHero />
       <Features />
+      <Stats />
       <Contact />
       <CTA />
       <Footer />

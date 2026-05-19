@@ -10,8 +10,37 @@
   "nav": {
     "features": "Funzioni",
     "download": "Scarica",
+    "stats": "Numeri",
     "contact": "Contatti",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "menu": "Menu"
+  },
+  "stats": {
+    "kicker": "Litro in numeri",
+    "title": "I dati che ci sostengono.",
+    "subtitle": "Copertura europea, dati ufficiali e una finestra di mercato di centinaia di milioni di conducenti.",
+    "countries": {
+      "value": "25",
+      "label": "paesi UE integrati",
+      "hint": "92% dell'Unione Europea"
+    },
+    "stations": {
+      "value": "+100.000",
+      "label": "stazioni di servizio",
+      "hint": "dati per stazione, non medie"
+    },
+    "updates": {
+      "value": "4×",
+      "label": "aggiornamenti al giorno",
+      "hint": "i prezzi cambiano più volte al giorno"
+    },
+    "drivers": {
+      "value": "+200M",
+      "label": "conducenti potenziali",
+      "hint": "finestra di mercato UE"
+    },
+    "whyTitle": "Perché aggiorniamo 4 volte al giorno?",
+    "whyBody": "Le fonti ufficiali e gli aggregatori pubblicano i prezzi in fasce diverse: Spagna e Francia al mattino (~06:00–12:00 CET), Italia due volte (~08:00 e 14:00), Germania e Austria in tempo reale, e gli aggregatori comunitari reagiscono durante la giornata. Per catturare tutti i cambiamenti senza saturare le API, eseguiamo la nostra pipeline 4 volte al giorno e gli utenti vedono sempre i prezzi più recenti possibili."
   },
   "privacy": {
     "kicker": "La tua privacy",
