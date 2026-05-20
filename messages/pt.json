@@ -109,6 +109,13 @@
     "legendCovered": "{n} países cobertos",
     "legendOther": "Em breve"
   },
+  "worldHero": {
+    "kicker": "Cobertura mundial",
+    "title": "A ajudar-te a poupar em cada km do mundo.",
+    "subtitle": "Preços oficiais de combustível atualizados diariamente nos países onde já operamos. Toda a Europa, América Latina, Oceania e mais a caminho.",
+    "legendCovered": "{n} países cobertos",
+    "legendOther": "Em breve"
+  },
   "hero": {
     "kicker": "A app dos condutores inteligentes",
     "title": "Poupa em cada litro.",

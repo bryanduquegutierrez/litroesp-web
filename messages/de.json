@@ -109,6 +109,13 @@
     "legendCovered": "{n} Länder abgedeckt",
     "legendOther": "Demnächst"
   },
+  "worldHero": {
+    "kicker": "Weltweite Abdeckung",
+    "title": "Wir helfen dir, bei jedem km weltweit zu sparen.",
+    "subtitle": "Täglich aktualisierte offizielle Kraftstoffpreise in den Ländern, in denen wir aktiv sind. Ganz Europa, Lateinamerika, Ozeanien und mehr in Vorbereitung.",
+    "legendCovered": "{n} Länder abgedeckt",
+    "legendOther": "Demnächst"
+  },
   "hero": {
     "kicker": "Die App für clevere Fahrer",
     "title": "Spare bei jedem Liter.",
