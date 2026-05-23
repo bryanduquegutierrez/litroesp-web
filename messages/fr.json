@@ -12,20 +12,21 @@
     "download": "Télécharger",
     "stats": "Chiffres",
     "contact": "Contact",
+    "about": "Qui sommes-nous",
     "privacy": "Confidentialité",
     "menu": "Menu"
   },
   "stats": {
     "kicker": "Litro en chiffres",
     "title": "Les données qui nous soutiennent.",
-    "subtitle": "Couverture européenne, données officielles et une fenêtre de marché de centaines de millions de conducteurs.",
+    "subtitle": "Couverture sur 3 continents, données officielles et une fenêtre de marché de centaines de millions de conducteurs.",
     "countries": {
-      "value": "25",
-      "label": "pays UE intégrés",
-      "hint": "92% de l'Union européenne"
+      "value": "34",
+      "label": "pays intégrés",
+      "hint": "Europe, Amérique et Océanie"
     },
     "stations": {
-      "value": "+100 000",
+      "value": "+70 000",
       "label": "stations-service",
       "hint": "données par station, pas des moyennes"
     },
@@ -35,9 +36,9 @@
       "hint": "les prix changent plusieurs fois par jour"
     },
     "drivers": {
-      "value": "+200M",
-      "label": "conducteurs potentiels",
-      "hint": "fenêtre de marché UE"
+      "value": "11",
+      "label": "types de carburant",
+      "hint": "essence, diesel, GPL, GNC et plus"
     },
     "whyTitle": "Pourquoi 4 mises à jour par jour ?",
     "whyBody": "Les sources officielles et agrégateurs publient les prix à différents moments : Espagne et France le matin (~06:00–12:00 CET), Italie deux fois (~08:00 et 14:00), Allemagne et Autriche en temps réel, et les agrégateurs communautaires réagissent tout au long de la journée. Pour capturer tous les changements sans saturer les API, nous exécutons notre pipeline 4 fois par jour et les utilisateurs voient toujours les prix les plus récents possibles."
@@ -137,8 +138,8 @@
     "prices": {
       "kicker": "Prix actualisés",
       "title": "Les prix les plus bas, en un toucher.",
-      "body": "Fiches avec prix mis à jour quotidiennement dans 23 pays de l'UE : du Portugal à la Finlande, en passant par l'Allemagne, la Pologne et les pays baltes.",
-      "highlights": ["23 pays UE couverts", "Données officielles par station", "Mise à jour quotidienne"]
+      "body": "Fiches avec prix mis à jour quotidiennement dans 34 pays d'Europe, d'Amérique et d'Océanie : du Portugal à l'Australie, en passant par l'Allemagne, le Mexique et la Turquie.",
+      "highlights": ["34 pays sur 3 continents", "Données officielles par station", "11 types de carburant"]
     },
     "alerts": {
       "kicker": "Alertes intelligentes",
@@ -175,12 +176,24 @@
     "kicker": "Annoncez sur Litro",
     "title": "Atteignez des millions de conducteurs en Europe.",
     "subtitle": "Parkings, garages, lavages, concessions ou particuliers : si votre activité veut de la visibilité face à une audience européenne de conducteurs actifs, parlons-en.",
-    "marketStat": "Plus de 15 pays UE couverts",
+    "marketStat": "34 pays sur 3 continents",
     "audienceStat": "Des millions de conducteurs actifs",
     "categoriesTitle": "Pensé pour",
     "categories": ["Parkings", "Garages et mécaniciens", "Concessions et revendeurs", "Lavages auto", "Services de mobilité", "Particuliers"],
     "emailLabel": "Écrivez-nous",
     "ctaButton": "Nous contacter"
+  },
+  "about": {
+    "kicker": "Qui sommes-nous",
+    "title": "Un projet, une personne.",
+    "p1": "Litro est né comme un projet personnel pour résoudre un vrai problème : trouver la station-service la moins chère sans perdre de temps. Derrière cette app, il n'y a ni entreprise ni équipe de 50 personnes — juste un développeur indépendant passionné.",
+    "p2": "Tout le développement, le design, les serveurs, la collecte de données de 34 pays et la maintenance quotidienne sont gérés par une seule personne. Sans investisseurs, sans publicité, sans vendre vos données.",
+    "donateTitle": "Offrez-nous un café (ou un plein)",
+    "donateBody": "Faire tourner Litro a des coûts réels : serveurs, APIs, certificats... Si l'app vous est utile et que vous souhaitez aider, toute contribution nous aide à continuer.",
+    "bankTransfer": "Virement bancaire",
+    "gofundme": "GoFundMe",
+    "gofundmeButton": "Donner sur GoFundMe",
+    "footer": "Café ou plein, c'est le geste qui compte"
   },
   "cta": {
     "title": "Commencez à économiser aujourd'hui.",

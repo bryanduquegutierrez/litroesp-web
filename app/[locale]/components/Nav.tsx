@@ -47,13 +47,13 @@ export function Nav() {
     ? "text-[color:var(--fg)] border-black/10 hover:bg-black/5"
     : "text-white border-white/30 hover:bg-white/10";
 
-  // Orden definitivo: Funciones, Descargar, Cifras, Contacto, Privacidad
   const links = [
     { key: "features", href: "/#features", external: false },
-    { key: "download", href: "/#download", external: false },
     { key: "stats", href: "/#stats", external: false },
+    { key: "about", href: "/#about", external: false },
     { key: "contact", href: "/#contact", external: false },
-    { key: "privacy", href: `/${locale}/privacy`, external: true }, // ruta propia
+    { key: "download", href: "/#download", external: false },
+    { key: "privacy", href: `/${locale}/privacy`, external: true },
   ] as const;
 
   return (

@@ -12,20 +12,21 @@
     "download": "Descargar",
     "stats": "Cifras",
     "contact": "Contacto",
+    "about": "Nosotros",
     "privacy": "Privacidad",
     "menu": "Menú"
   },
   "stats": {
     "kicker": "Litro en cifras",
     "title": "Datos que nos respaldan.",
-    "subtitle": "Cobertura europea, datos oficiales y una ventana de mercado de cientos de millones de conductores.",
+    "subtitle": "Cobertura en 3 continentes, datos oficiales y una ventana de mercado de cientos de millones de conductores.",
     "countries": {
-      "value": "25",
-      "label": "países UE integrados",
-      "hint": "92% de la Unión Europea"
+      "value": "34",
+      "label": "países integrados",
+      "hint": "Europa, América y Oceanía"
     },
     "stations": {
-      "value": "+100.000",
+      "value": "+70.000",
       "label": "estaciones de servicio",
       "hint": "datos por estación, no medias"
     },
@@ -35,9 +36,9 @@
       "hint": "los precios cambian varias veces al día"
     },
     "drivers": {
-      "value": "+200M",
-      "label": "conductores potenciales",
-      "hint": "ventana de mercado en la UE"
+      "value": "11",
+      "label": "tipos de combustible",
+      "hint": "gasolina, diésel, GLP, GNC y más"
     },
     "whyTitle": "¿Por qué actualizamos 4 veces al día?",
     "whyBody": "Las fuentes oficiales y los agregadores publican precios en distintas franjas: España y Francia a primera hora (~06:00–12:00 CET), Italia dos veces (~08:00 y 14:00), Alemania y Austria en tiempo real, y los agregadores comunitarios reaccionan a lo largo del día. Para capturar todos los cambios sin saturar las APIs, ejecutamos nuestro pipeline 4 veces al día y los usuarios ven siempre los precios más recientes posibles."
@@ -137,8 +138,8 @@
     "prices": {
       "kicker": "Precios actualizados",
       "title": "Los precios más bajos, a un toque.",
-      "body": "Tarjetas con precios actualizados a diario en 23 países de la UE: desde Portugal hasta Finlandia, pasando por Alemania, Polonia y los países bálticos.",
-      "highlights": ["23 países UE cubiertos", "Datos oficiales por estación", "Actualización diaria"]
+      "body": "Tarjetas con precios actualizados a diario en 34 países de Europa, América y Oceanía: desde Portugal hasta Australia, pasando por Alemania, México y Turquía.",
+      "highlights": ["34 países en 3 continentes", "Datos oficiales por estación", "11 tipos de combustible"]
     },
     "alerts": {
       "kicker": "Alertas inteligentes",
@@ -175,12 +176,24 @@
     "kicker": "Anúnciate en Litro",
     "title": "Llega a millones de conductores en Europa.",
     "subtitle": "Parkings, talleres, lavaderos, concesionarios o particulares: si tu negocio quiere visibilidad ante una audiencia europea de conductores activos, hablemos.",
-    "marketStat": "+15 países UE cubiertos",
+    "marketStat": "34 países en 3 continentes",
     "audienceStat": "Millones de conductores activos",
     "categoriesTitle": "Pensado para",
     "categories": ["Parkings", "Talleres mecánicos", "Concesionarios y compraventas", "Lavaderos", "Servicios de movilidad", "Particulares"],
     "emailLabel": "Escríbenos",
     "ctaButton": "Contactar"
+  },
+  "about": {
+    "kicker": "Nosotros",
+    "title": "Un proyecto, una persona.",
+    "p1": "Litro nació como un proyecto personal para resolver un problema real: encontrar la gasolinera más barata sin perder tiempo. Detrás de esta app no hay una empresa ni un equipo de 50 personas — solo un desarrollador independiente con muchas ganas de crear algo útil.",
+    "p2": "Todo el desarrollo, el diseño, los servidores, la recopilación de datos de 34 países y el mantenimiento diario los lleva una sola persona. Sin inversores, sin publicidad, sin vender tus datos.",
+    "donateTitle": "Invítanos a un café (o a un depósito lleno)",
+    "donateBody": "Mantener Litro funcionando tiene costes reales: servidores, APIs, certificados... Si la app te resulta útil y quieres echar una mano, cualquier aportación nos ayuda a seguir mejorando.",
+    "bankTransfer": "Transferencia bancaria",
+    "gofundme": "GoFundMe",
+    "gofundmeButton": "Donar en GoFundMe",
+    "footer": "Da igual si es un café o un depósito lleno, lo importante es el gesto"
   },
   "cta": {
     "title": "Empieza a ahorrar hoy.",

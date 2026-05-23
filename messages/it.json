@@ -12,20 +12,21 @@
     "download": "Scarica",
     "stats": "Numeri",
     "contact": "Contatti",
+    "about": "Chi siamo",
     "privacy": "Privacy",
     "menu": "Menu"
   },
   "stats": {
     "kicker": "Litro in numeri",
     "title": "I dati che ci sostengono.",
-    "subtitle": "Copertura europea, dati ufficiali e una finestra di mercato di centinaia di milioni di conducenti.",
+    "subtitle": "Copertura in 3 continenti, dati ufficiali e una finestra di mercato di centinaia di milioni di conducenti.",
     "countries": {
-      "value": "25",
-      "label": "paesi UE integrati",
-      "hint": "92% dell'Unione Europea"
+      "value": "34",
+      "label": "paesi integrati",
+      "hint": "Europa, America e Oceania"
     },
     "stations": {
-      "value": "+100.000",
+      "value": "+70.000",
       "label": "stazioni di servizio",
       "hint": "dati per stazione, non medie"
     },
@@ -35,9 +36,9 @@
       "hint": "i prezzi cambiano più volte al giorno"
     },
     "drivers": {
-      "value": "+200M",
-      "label": "conducenti potenziali",
-      "hint": "finestra di mercato UE"
+      "value": "11",
+      "label": "tipi di carburante",
+      "hint": "benzina, diesel, GPL, metano e altro"
     },
     "whyTitle": "Perché aggiorniamo 4 volte al giorno?",
     "whyBody": "Le fonti ufficiali e gli aggregatori pubblicano i prezzi in fasce diverse: Spagna e Francia al mattino (~06:00–12:00 CET), Italia due volte (~08:00 e 14:00), Germania e Austria in tempo reale, e gli aggregatori comunitari reagiscono durante la giornata. Per catturare tutti i cambiamenti senza saturare le API, eseguiamo la nostra pipeline 4 volte al giorno e gli utenti vedono sempre i prezzi più recenti possibili."
@@ -137,8 +138,8 @@
     "prices": {
       "kicker": "Prezzi aggiornati",
       "title": "I prezzi più bassi, a un tocco.",
-      "body": "Schede con prezzi aggiornati ogni giorno in 23 paesi UE: dal Portogallo alla Finlandia, passando per Germania, Polonia e paesi baltici.",
-      "highlights": ["23 paesi UE coperti", "Dati ufficiali per stazione", "Aggiornamento giornaliero"]
+      "body": "Schede con prezzi aggiornati ogni giorno in 34 paesi di Europa, America e Oceania: dal Portogallo all'Australia, passando per Germania, Messico e Turchia.",
+      "highlights": ["34 paesi in 3 continenti", "Dati ufficiali per stazione", "11 tipi di carburante"]
     },
     "alerts": {
       "kicker": "Avvisi intelligenti",
@@ -175,12 +176,24 @@
     "kicker": "Promuoviti su Litro",
     "title": "Raggiungi milioni di conducenti in Europa.",
     "subtitle": "Parcheggi, officine, autolavaggi, concessionarie o privati: se la tua attività vuole visibilità davanti a un pubblico europeo di conducenti attivi, parliamone.",
-    "marketStat": "Oltre 15 paesi UE coperti",
+    "marketStat": "34 paesi in 3 continenti",
     "audienceStat": "Milioni di conducenti attivi",
     "categoriesTitle": "Pensato per",
     "categories": ["Parcheggi", "Officine meccaniche", "Concessionarie e rivenditori", "Autolavaggi", "Servizi di mobilità", "Privati"],
     "emailLabel": "Scrivici",
     "ctaButton": "Contattaci"
+  },
+  "about": {
+    "kicker": "Chi siamo",
+    "title": "Un progetto, una persona.",
+    "p1": "Litro è nato come un progetto personale per risolvere un problema reale: trovare la stazione di servizio più economica senza perdere tempo. Dietro questa app non c'è un'azienda né un team di 50 persone — solo uno sviluppatore indipendente con tanta voglia di creare qualcosa di utile.",
+    "p2": "Tutto lo sviluppo, il design, i server, la raccolta dati da 34 paesi e la manutenzione quotidiana sono gestiti da una sola persona. Senza investitori, senza pubblicità, senza vendere i tuoi dati.",
+    "donateTitle": "Offrici un caffè (o un pieno)",
+    "donateBody": "Mantenere Litro ha costi reali: server, API, certificati... Se l'app ti è utile e vuoi dare una mano, qualsiasi contributo ci aiuta a migliorare.",
+    "bankTransfer": "Bonifico bancario",
+    "gofundme": "GoFundMe",
+    "gofundmeButton": "Dona su GoFundMe",
+    "footer": "Che sia un caffè o un pieno, l'importante è il gesto"
   },
   "cta": {
     "title": "Inizia a risparmiare oggi.",

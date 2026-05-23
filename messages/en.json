@@ -12,20 +12,21 @@
     "download": "Download",
     "stats": "Numbers",
     "contact": "Contact",
+    "about": "About",
     "privacy": "Privacy",
     "menu": "Menu"
   },
   "stats": {
     "kicker": "Litro in numbers",
     "title": "The data that backs us.",
-    "subtitle": "European coverage, official data, and a market reach of hundreds of millions of drivers.",
+    "subtitle": "Coverage across 3 continents, official data, and a market reach of hundreds of millions of drivers.",
     "countries": {
-      "value": "25",
-      "label": "EU countries integrated",
-      "hint": "92% of the European Union"
+      "value": "34",
+      "label": "countries integrated",
+      "hint": "Europe, the Americas & Oceania"
     },
     "stations": {
-      "value": "100,000+",
+      "value": "70,000+",
       "label": "fuel stations",
       "hint": "per-station data, not averages"
     },
@@ -35,9 +36,9 @@
       "hint": "prices change several times daily"
     },
     "drivers": {
-      "value": "200M+",
-      "label": "potential drivers",
-      "hint": "EU market reach"
+      "value": "11",
+      "label": "fuel types",
+      "hint": "petrol, diesel, LPG, CNG & more"
     },
     "whyTitle": "Why do we update 4 times a day?",
     "whyBody": "Official sources and aggregators publish prices in different windows: Spain and France in the morning (~06:00–12:00 CET), Italy twice (~08:00 and 14:00), Germany and Austria in real time, and community aggregators react throughout the day. To capture all changes without hammering the APIs, we run our pipeline 4 times daily and users always see the freshest prices possible."
@@ -137,8 +138,8 @@
     "prices": {
       "kicker": "Live prices",
       "title": "The cheapest prices, one tap away.",
-      "body": "Daily-updated price cards across 23 EU countries: from Portugal to Finland, including Germany, Poland and the Baltic states.",
-      "highlights": ["23 EU countries covered", "Official per-station data", "Daily updates"]
+      "body": "Daily-updated price cards across 34 countries in Europe, the Americas and Oceania: from Portugal to Australia, including Germany, Mexico and Turkey.",
+      "highlights": ["34 countries on 3 continents", "Official per-station data", "11 fuel types"]
     },
     "alerts": {
       "kicker": "Smart alerts",
@@ -175,12 +176,24 @@
     "kicker": "Advertise on Litro",
     "title": "Reach millions of drivers across Europe.",
     "subtitle": "Parking lots, garages, car washes, dealers or individuals: if your business wants visibility in front of a European audience of active drivers, let's talk.",
-    "marketStat": "15+ EU countries covered",
+    "marketStat": "34 countries across 3 continents",
     "audienceStat": "Millions of active drivers",
     "categoriesTitle": "Built for",
     "categories": ["Parking lots", "Garages & mechanics", "Dealerships & resellers", "Car washes", "Mobility services", "Individuals"],
     "emailLabel": "Drop us a line",
     "ctaButton": "Contact us"
+  },
+  "about": {
+    "kicker": "About us",
+    "title": "One project, one person.",
+    "p1": "Litro started as a personal project to solve a real problem: finding the cheapest petrol station without wasting time. Behind this app there's no company or team of 50 — just one independent developer with a strong drive to build something useful.",
+    "p2": "All the development, design, servers, data collection across 34 countries and daily maintenance is handled by a single person. No investors, no ads, no selling your data.",
+    "donateTitle": "Buy us a coffee (or a full tank)",
+    "donateBody": "Keeping Litro running has real costs: servers, APIs, certificates... If you find the app useful and want to help out, any contribution helps us keep improving.",
+    "bankTransfer": "Bank transfer",
+    "gofundme": "GoFundMe",
+    "gofundmeButton": "Donate on GoFundMe",
+    "footer": "Whether it's a coffee or a full tank, it's the gesture that counts"
   },
   "cta": {
     "title": "Start saving today.",

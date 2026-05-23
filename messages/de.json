@@ -12,20 +12,21 @@
     "download": "Download",
     "stats": "Zahlen",
     "contact": "Kontakt",
+    "about": "Über uns",
     "privacy": "Datenschutz",
     "menu": "Menü"
   },
   "stats": {
     "kicker": "Litro in Zahlen",
     "title": "Die Daten, die uns stützen.",
-    "subtitle": "Europäische Abdeckung, offizielle Daten und ein Marktfenster von Hunderten Millionen Autofahrern.",
+    "subtitle": "Abdeckung auf 3 Kontinenten, offizielle Daten und ein Marktfenster von Hunderten Millionen Autofahrern.",
     "countries": {
-      "value": "25",
-      "label": "EU-Länder integriert",
-      "hint": "92% der Europäischen Union"
+      "value": "34",
+      "label": "Länder integriert",
+      "hint": "Europa, Amerika und Ozeanien"
     },
     "stations": {
-      "value": "+100.000",
+      "value": "+70.000",
       "label": "Tankstellen",
       "hint": "Daten pro Tankstelle, keine Durchschnitte"
     },
@@ -35,9 +36,9 @@
       "hint": "Preise ändern sich mehrmals täglich"
     },
     "drivers": {
-      "value": "+200M",
-      "label": "potenzielle Autofahrer",
-      "hint": "EU-Marktfenster"
+      "value": "11",
+      "label": "Kraftstoffarten",
+      "hint": "Benzin, Diesel, LPG, Erdgas u.m."
     },
     "whyTitle": "Warum aktualisieren wir 4 Mal am Tag?",
     "whyBody": "Offizielle Quellen und Aggregatoren veröffentlichen Preise zu unterschiedlichen Zeiten: Spanien und Frankreich morgens (~06:00–12:00 CET), Italien zweimal (~08:00 und 14:00), Deutschland und Österreich in Echtzeit, und Community-Aggregatoren reagieren über den Tag verteilt. Um alle Änderungen zu erfassen, ohne die APIs zu überlasten, führen wir unsere Pipeline 4 Mal am Tag aus und Nutzer sehen immer die aktuellsten möglichen Preise."
@@ -137,8 +138,8 @@
     "prices": {
       "kicker": "Aktuelle Preise",
       "title": "Die günstigsten Preise mit einem Tipp.",
-      "body": "Täglich aktualisierte Preiskarten in 23 EU-Ländern: von Portugal bis Finnland, einschließlich Deutschland, Polen und den baltischen Staaten.",
-      "highlights": ["23 EU-Länder abgedeckt", "Offizielle Daten pro Tankstelle", "Tägliche Aktualisierung"]
+      "body": "Täglich aktualisierte Preiskarten in 34 Ländern in Europa, Amerika und Ozeanien: von Portugal bis Australien, einschließlich Deutschland, Mexiko und Türkei.",
+      "highlights": ["34 Länder auf 3 Kontinenten", "Offizielle Daten pro Tankstelle", "11 Kraftstoffarten"]
     },
     "alerts": {
       "kicker": "Intelligente Benachrichtigungen",
@@ -175,12 +176,24 @@
     "kicker": "Wirb auf Litro",
     "title": "Erreiche Millionen Autofahrer in ganz Europa.",
     "subtitle": "Parkplätze, Werkstätten, Waschanlagen, Autohäuser oder Privatpersonen: Wenn dein Unternehmen Sichtbarkeit vor einem europäischen Publikum aktiver Autofahrer möchte, lass uns reden.",
-    "marketStat": "Über 15 EU-Länder abgedeckt",
+    "marketStat": "34 Länder auf 3 Kontinenten",
     "audienceStat": "Millionen aktive Autofahrer",
     "categoriesTitle": "Gemacht für",
     "categories": ["Parkplätze", "Werkstätten", "Autohäuser und Händler", "Waschanlagen", "Mobilitätsdienste", "Privatpersonen"],
     "emailLabel": "Schreib uns",
     "ctaButton": "Kontaktieren"
+  },
+  "about": {
+    "kicker": "Über uns",
+    "title": "Ein Projekt, eine Person.",
+    "p1": "Litro entstand als persönliches Projekt, um ein echtes Problem zu lösen: die günstigste Tankstelle finden, ohne Zeit zu verschwenden. Hinter dieser App steckt kein Unternehmen und kein 50-köpfiges Team — nur ein unabhängiger Entwickler mit dem Wunsch, etwas Nützliches zu schaffen.",
+    "p2": "Die gesamte Entwicklung, das Design, die Server, die Datensammlung aus 34 Ländern und die tägliche Wartung werden von einer einzigen Person betrieben. Ohne Investoren, ohne Werbung, ohne deine Daten zu verkaufen.",
+    "donateTitle": "Spendier uns einen Kaffee (oder eine volle Tankfüllung)",
+    "donateBody": "Litro am Laufen zu halten hat echte Kosten: Server, APIs, Zertifikate... Wenn dir die App nützlich ist und du helfen möchtest, hilft uns jeder Beitrag weiterzumachen.",
+    "bankTransfer": "Banküberweisung",
+    "gofundme": "GoFundMe",
+    "gofundmeButton": "Auf GoFundMe spenden",
+    "footer": "Ob Kaffee oder volle Tankfüllung — die Geste zählt"
   },
   "cta": {
     "title": "Fang heute an zu sparen.",

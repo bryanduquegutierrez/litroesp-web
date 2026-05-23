@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { Building2, Clock, Globe2, Users } from "lucide-react";
+import { Building2, Clock, Droplets, Globe2 } from "lucide-react";
 
 type Card = {
   key: "countries" | "stations" | "updates" | "drivers";
@@ -13,7 +13,7 @@ const CARDS: Card[] = [
   { key: "countries", Icon: Globe2 },
   { key: "stations", Icon: Building2 },
   { key: "updates", Icon: Clock },
-  { key: "drivers", Icon: Users },
+  { key: "drivers", Icon: Droplets },
 ];
 
 export function Stats() {

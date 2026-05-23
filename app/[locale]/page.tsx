@@ -1,3 +1,4 @@
+import { AboutUs } from "./components/AboutUs";
 import { Banner } from "./components/Banner";
 import { Contact } from "./components/Contact";
 import { CTA } from "./components/CTA";
@@ -15,6 +16,7 @@ export default function HomePage() {
       <WorldHero />
       <Features />
       <Stats />
+      <AboutUs />
       <Contact />
       <CTA />
       <Footer />
