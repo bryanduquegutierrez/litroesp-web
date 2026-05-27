@@ -53,7 +53,7 @@ export function Nav() {
     { key: "about", href: "/#about", external: false },
     { key: "contact", href: "/#contact", external: false },
     { key: "download", href: "/#download", external: false },
-    { key: "privacy", href: `/${locale}/privacy`, external: true },
+    { key: "privacy", href: "/privacy", external: true },
   ] as const;
 
   return (

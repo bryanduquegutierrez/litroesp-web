@@ -19,7 +19,7 @@ export function Footer() {
 
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:gap-x-6 text-sm text-[color:var(--muted)]">
           <Link
-            href={`/${locale}/privacy`}
+            href="/privacy"
             className="hover:text-[color:var(--fg)] transition-colors"
           >
             {t("privacy")}

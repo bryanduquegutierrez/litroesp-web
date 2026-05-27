@@ -199,7 +199,8 @@
     "title": "Começa a poupar hoje.",
     "subtitle": "A Litro é gratuita. Descarrega-a e nota a diferença no próximo abastecimento.",
     "appStore": "Descarregar na App Store",
-    "playStore": "Em breve no Google Play"
+    "playStore": "Em breve no Google Play",
+    "scanQR": "Lê o QR com o telemóvel para descarregar"
   },
   "footer": {
     "tagline": "Conduz esperto, conduz a poupar.",

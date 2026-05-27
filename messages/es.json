@@ -199,7 +199,8 @@
     "title": "Empieza a ahorrar hoy.",
     "subtitle": "Litro es gratis. Descárgatela y notarás la diferencia en tu próximo repostaje.",
     "appStore": "Descargar en App Store",
-    "playStore": "Próximamente en Google Play"
+    "playStore": "Próximamente en Google Play",
+    "scanQR": "Escanea el QR con tu móvil para descargar"
   },
   "footer": {
     "tagline": "Conduce listo, conduce ahorrando.",

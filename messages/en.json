@@ -199,7 +199,8 @@
     "title": "Start saving today.",
     "subtitle": "Litro is free. Download it and feel the difference on your next fill-up.",
     "appStore": "Download on the App Store",
-    "playStore": "Coming soon on Google Play"
+    "playStore": "Coming soon on Google Play",
+    "scanQR": "Scan the QR with your phone to download"
   },
   "footer": {
     "tagline": "Drive smart, drive saving.",
