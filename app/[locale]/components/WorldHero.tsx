@@ -99,14 +99,14 @@ export async function WorldHero() {
 
   // Generamos un <path> por cada feature
   const renderedPaths = (fc.features as WorldFeature[])
-    .map((f) => {
+    .map((f, i) => {
       const d = pathGen(f);
       if (!d) return null;
       const m49 = String((f as any).id ?? "").padStart(3, "0");
       const iso = M49_TO_ISO2[m49];
       const isSupported = iso && SUPPORTED_COUNTRIES.has(iso);
       return {
-        id: iso ?? `m49-${m49}`,
+        id: iso ?? `m49-${m49}-${i}`,
         d,
         fill: isSupported ? SUPPORTED_COLOR : REST_COLOR,
         name: f.properties.name,

@@ -1,6 +1,7 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -65,10 +66,17 @@ export function Nav() {
             : "bg-transparent"
         }`}
       >
-        <nav className="max-w-7xl mx-auto px-6 py-3 grid grid-cols-3 items-center">
+        <nav className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between md:grid md:grid-cols-3">
           {/* Logo (izquierda) */}
           <div className="flex items-center justify-start">
             <Link href={`/${locale}`} className="flex items-center gap-2 group">
+              <Image
+                src="/assets/icon.png"
+                alt="Litro"
+                width={32}
+                height={32}
+                className="rounded-lg"
+              />
               <span className={`font-semibold tracking-tight text-lg transition-colors ${logoClass}`}>
                 Litro
               </span>
@@ -111,7 +119,16 @@ export function Nav() {
           {/* Panel lateral */}
           <aside className="absolute right-0 top-0 h-full w-72 max-w-[85%] bg-white shadow-2xl flex flex-col animate-[slideInRight_0.25s_ease-out]">
             <div className="flex items-center justify-between px-5 py-4 border-b border-black/5">
-              <span className="font-semibold tracking-tight text-lg text-[color:var(--fg)]">Litro</span>
+              <div className="flex items-center gap-2">
+                <Image
+                  src="/assets/icon.png"
+                  alt="Litro"
+                  width={28}
+                  height={28}
+                  className="rounded-md"
+                />
+                <span className="font-semibold tracking-tight text-lg text-[color:var(--fg)]">Litro</span>
+              </div>
               <button
                 onClick={() => setDrawerOpen(false)}
                 aria-label="Cerrar menú"
