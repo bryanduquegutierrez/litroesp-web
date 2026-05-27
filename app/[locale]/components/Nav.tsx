@@ -48,14 +48,16 @@ export function Nav() {
     ? "text-[color:var(--fg)] border-black/10 hover:bg-black/5"
     : "text-white border-white/30 hover:bg-white/10";
 
+  const privacyHref = locale === "es" ? "/privacy" : `/${locale}/privacy`;
+
   const links = [
     { key: "features", href: "/#features", external: false },
     { key: "stats", href: "/#stats", external: false },
     { key: "about", href: "/#about", external: false },
     { key: "contact", href: "/#contact", external: false },
     { key: "download", href: "/#download", external: false },
-    { key: "privacy", href: "/privacy", external: true },
-  ] as const;
+    { key: "privacy", href: privacyHref, external: true },
+  ];
 
   return (
     <>
