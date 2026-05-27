@@ -6,8 +6,10 @@ import {
   Bell,
   Car,
   Fuel,
+  Globe2,
   Map as MapIcon,
   Route,
+  Settings2,
   Star,
   TrendingUp,
 } from "lucide-react";
@@ -17,13 +19,15 @@ export function Features() {
   const t = useTranslations("features");
 
   const features = [
-    { key: "parking",   icon: Car,        reverse: false, accent: "cool" as const, src: "/assets/feat-parking.png" },
-    { key: "prices",    icon: Fuel,       reverse: true,  accent: "tint" as const, src: "/assets/feat-prices.png" },
-    { key: "alerts",    icon: Bell,       reverse: false, accent: "warm" as const, src: "/assets/feat-alerts.png" },
-    { key: "map",       icon: MapIcon,    reverse: true,  accent: "tint" as const, src: "/assets/feat-map.png" },
-    { key: "routes",    icon: Route,      reverse: false, accent: "cool" as const, src: "/assets/feat-routes.png" },
-    { key: "favorites", icon: Star,       reverse: true,  accent: "gold" as const, src: "/assets/feat-favorites.png" },
-    { key: "savings",   icon: TrendingUp, reverse: false, accent: "tint" as const, src: "/assets/feat-savings.png" },
+    { key: "parking",      icon: Car,        reverse: false, accent: "cool" as const, src: "/assets/feat-parking.png" },
+    { key: "prices",       icon: Fuel,       reverse: true,  accent: "tint" as const, src: "/assets/feat-prices.png" },
+    { key: "country",      icon: Globe2,     reverse: false, accent: "cool" as const, src: "/assets/feat-country.png" },
+    { key: "alerts",       icon: Bell,       reverse: true,  accent: "warm" as const, src: "/assets/feat-alerts.png" },
+    { key: "map",          icon: MapIcon,    reverse: false, accent: "tint" as const, src: "/assets/feat-map.png" },
+    { key: "routesConfig", icon: Settings2,  reverse: true,  accent: "cool" as const, src: "/assets/feat-routes-config.png" },
+    { key: "routes",       icon: Route,      reverse: false, accent: "tint" as const, src: "/assets/feat-routes.png" },
+    { key: "favorites",    icon: Star,       reverse: true,  accent: "gold" as const, src: "/assets/feat-favorites.png" },
+    { key: "savings",      icon: TrendingUp, reverse: false, accent: "tint" as const, src: "/assets/feat-savings.png" },
   ];
 
   return (

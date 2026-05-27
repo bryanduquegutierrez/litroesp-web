@@ -19,29 +19,29 @@
   "stats": {
     "kicker": "Litro in Zahlen",
     "title": "Die Daten, die uns stützen.",
-    "subtitle": "Abdeckung auf 3 Kontinenten, offizielle Daten und ein Marktfenster von Hunderten Millionen Autofahrern.",
-    "countries": {
-      "value": "34",
-      "label": "Länder integriert",
-      "hint": "Europa, Amerika und Ozeanien"
-    },
+    "subtitle": "Abdeckung auf 3 Kontinenten, offizielle Daten und ein Marktfenster von Millionen Autofahrern.",
     "stations": {
-      "value": "+70.000",
-      "label": "Tankstellen",
-      "hint": "Daten pro Tankstelle, keine Durchschnitte"
+      "value": "+150.000",
+      "label": "registrierte Tankstellen",
+      "hint": "echte Daten pro Tankstelle, keine Durchschnitte"
     },
     "updates": {
-      "value": "4×",
+      "value": "24h",
       "label": "Aktualisierungen pro Tag",
-      "hint": "Preise ändern sich mehrmals täglich"
+      "hint": "Preise werden fortlaufend aktualisiert"
+    },
+    "countries": {
+      "value": "34",
+      "label": "Länder auf 3 Kontinenten",
+      "hint": "Europa, Amerika und Ozeanien"
     },
     "drivers": {
-      "value": "11",
-      "label": "Kraftstoffarten",
-      "hint": "Benzin, Diesel, LPG, Erdgas u.m."
+      "value": "M+",
+      "label": "Marktfenster",
+      "hint": "Millionen Autofahrer in Reichweite"
     },
-    "whyTitle": "Warum aktualisieren wir 4 Mal am Tag?",
-    "whyBody": "Offizielle Quellen und Aggregatoren veröffentlichen Preise zu unterschiedlichen Zeiten: Spanien und Frankreich morgens (~06:00–12:00 CET), Italien zweimal (~08:00 und 14:00), Deutschland und Österreich in Echtzeit, und Community-Aggregatoren reagieren über den Tag verteilt. Um alle Änderungen zu erfassen, ohne die APIs zu überlasten, führen wir unsere Pipeline 4 Mal am Tag aus und Nutzer sehen immer die aktuellsten möglichen Preise."
+    "whyTitle": "Warum aktualisieren wir fortlaufend?",
+    "whyBody": "Offizielle Quellen und Aggregatoren veröffentlichen Preise zu unterschiedlichen Zeiten: Spanien und Frankreich morgens (~06:00–12:00 CET), Italien zweimal (~08:00 und 14:00), Deutschland und Österreich in Echtzeit, und Community-Aggregatoren reagieren über den Tag verteilt. Unsere Pipeline läuft fortlaufend, damit Nutzer immer die aktuellsten möglichen Preise sehen."
   },
   "privacy": {
     "kicker": "Dein Datenschutz",
@@ -128,7 +128,7 @@
   },
   "features": {
     "sectionTitle": "Alles, was du zum Sparen brauchst.",
-    "sectionSubtitle": "Sieben Funktionen, die deine Fahrweise verändern.",
+    "sectionSubtitle": "Neun Funktionen, die deine Fahrweise verändern.",
     "parking": {
       "kicker": "Parkplätze",
       "title": "Parken ohne Suchen.",
@@ -141,6 +141,12 @@
       "body": "Täglich aktualisierte Preiskarten in 34 Ländern in Europa, Amerika und Ozeanien: von Portugal bis Australien, einschließlich Deutschland, Mexiko und Türkei.",
       "highlights": ["34 Länder auf 3 Kontinenten", "Offizielle Daten pro Tankstelle", "11 Kraftstoffarten"]
     },
+    "country": {
+      "kicker": "Globale Abdeckung",
+      "title": "Wähle dein Land, finde deine Tankstelle.",
+      "body": "Wähle aus 34 Ländern auf 3 Kontinenten. Litro passt sich dem gewählten Land an: lokale Kraftstoffe, Währung, Preisformat und nahegelegene Tankstellen.",
+      "highlights": ["34 Länder verfügbar", "Sofortiger Länderwechsel", "Lokale Daten pro Land"]
+    },
     "alerts": {
       "kicker": "Intelligente Benachrichtigungen",
       "title": "Sag mir, wenn er sinkt.",
@@ -152,6 +158,12 @@
       "title": "Alles in deiner Nähe.",
       "body": "Pins von Tankstellen und Parkplätzen auf einer flüssigen Karte. Filtere nach Marke, Preis oder Verfügbarkeit.",
       "highlights": ["Markenfilter", "Echtzeit-Pins", "Hell- und Dunkelmodus"]
+    },
+    "routesConfig": {
+      "kicker": "Route konfigurieren",
+      "title": "Passe jedes Detail an, bevor du losfährst.",
+      "body": "Wähle Startpunkt, Anzahl der Stopps, Kraftstoffart und ob du mit wenig Tank losfährst. Litro berechnet die optimale Route mit all deinen Parametern.",
+      "highlights": ["Bis zu 6 Stopps", "Filter nach Kraftstoff", "Niedrigtank-Modus"]
     },
     "routes": {
       "kicker": "Intelligente Routen",

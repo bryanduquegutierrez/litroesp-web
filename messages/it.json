@@ -19,29 +19,29 @@
   "stats": {
     "kicker": "Litro in numeri",
     "title": "I dati che ci sostengono.",
-    "subtitle": "Copertura in 3 continenti, dati ufficiali e una finestra di mercato di centinaia di milioni di conducenti.",
-    "countries": {
-      "value": "34",
-      "label": "paesi integrati",
-      "hint": "Europa, America e Oceania"
-    },
+    "subtitle": "Copertura in 3 continenti, dati ufficiali e una finestra di mercato di milioni di conducenti.",
     "stations": {
-      "value": "+70.000",
-      "label": "stazioni di servizio",
-      "hint": "dati per stazione, non medie"
+      "value": "+150.000",
+      "label": "stazioni registrate",
+      "hint": "dati reali per stazione, non medie"
     },
     "updates": {
-      "value": "4×",
+      "value": "24h",
       "label": "aggiornamenti al giorno",
-      "hint": "i prezzi cambiano più volte al giorno"
+      "hint": "prezzi aggiornati in modo continuo"
+    },
+    "countries": {
+      "value": "34",
+      "label": "paesi in 3 continenti",
+      "hint": "Europa, America e Oceania"
     },
     "drivers": {
-      "value": "11",
-      "label": "tipi di carburante",
-      "hint": "benzina, diesel, GPL, metano e altro"
+      "value": "M+",
+      "label": "finestra di mercato",
+      "hint": "milioni di conducenti a portata"
     },
-    "whyTitle": "Perché aggiorniamo 4 volte al giorno?",
-    "whyBody": "Le fonti ufficiali e gli aggregatori pubblicano i prezzi in fasce diverse: Spagna e Francia al mattino (~06:00–12:00 CET), Italia due volte (~08:00 e 14:00), Germania e Austria in tempo reale, e gli aggregatori comunitari reagiscono durante la giornata. Per catturare tutti i cambiamenti senza saturare le API, eseguiamo la nostra pipeline 4 volte al giorno e gli utenti vedono sempre i prezzi più recenti possibili."
+    "whyTitle": "Perché aggiorniamo continuamente?",
+    "whyBody": "Le fonti ufficiali e gli aggregatori pubblicano i prezzi in fasce diverse: Spagna e Francia al mattino (~06:00–12:00 CET), Italia due volte (~08:00 e 14:00), Germania e Austria in tempo reale, e gli aggregatori comunitari reagiscono durante la giornata. La nostra pipeline si esegue continuamente affinché gli utenti vedano sempre i prezzi più recenti possibili."
   },
   "privacy": {
     "kicker": "La tua privacy",
@@ -128,7 +128,7 @@
   },
   "features": {
     "sectionTitle": "Tutto ciò che serve per risparmiare.",
-    "sectionSubtitle": "Sette funzioni che cambiano il modo in cui guidi.",
+    "sectionSubtitle": "Nove funzioni che cambiano il modo in cui guidi.",
     "parking": {
       "kicker": "Parcheggi",
       "title": "Parcheggia senza girare.",
@@ -141,6 +141,12 @@
       "body": "Schede con prezzi aggiornati ogni giorno in 34 paesi di Europa, America e Oceania: dal Portogallo all'Australia, passando per Germania, Messico e Turchia.",
       "highlights": ["34 paesi in 3 continenti", "Dati ufficiali per stazione", "11 tipi di carburante"]
     },
+    "country": {
+      "kicker": "Copertura globale",
+      "title": "Scegli il tuo paese, trova la tua stazione.",
+      "body": "Scegli tra 34 paesi in 3 continenti. Litro si adatta al paese selezionato: carburanti locali, valuta, formato prezzi e stazioni vicine.",
+      "highlights": ["34 paesi disponibili", "Cambio paese istantaneo", "Dati locali per paese"]
+    },
     "alerts": {
       "kicker": "Avvisi intelligenti",
       "title": "Avvisami quando scende.",
@@ -152,6 +158,12 @@
       "title": "Tutto vicino a te.",
       "body": "Pin di stazioni e parcheggi vicini su una mappa fluida. Filtra per marchio, prezzo o disponibilità.",
       "highlights": ["Filtro per marchio", "Pin in tempo reale", "Modalità chiara e scura"]
+    },
+    "routesConfig": {
+      "kicker": "Configura il tuo percorso",
+      "title": "Personalizza ogni dettaglio prima di partire.",
+      "body": "Scegli il punto di partenza, il numero di soste, il tipo di carburante e se parti con il serbatoio quasi vuoto. Litro calcola il percorso ottimale con tutti i tuoi parametri.",
+      "highlights": ["Fino a 6 soste", "Filtro per carburante", "Modalità serbatoio basso"]
     },
     "routes": {
       "kicker": "Percorsi intelligenti",

@@ -19,29 +19,29 @@
   "stats": {
     "kicker": "Litro em números",
     "title": "Os dados que nos sustentam.",
-    "subtitle": "Cobertura em 3 continentes, dados oficiais e uma janela de mercado de centenas de milhões de condutores.",
-    "countries": {
-      "value": "34",
-      "label": "países integrados",
-      "hint": "Europa, América e Oceania"
-    },
+    "subtitle": "Cobertura em 3 continentes, dados oficiais e uma janela de mercado de milhões de condutores.",
     "stations": {
-      "value": "+70.000",
-      "label": "postos de combustível",
-      "hint": "dados por posto, não médias"
+      "value": "+150.000",
+      "label": "postos registados",
+      "hint": "dados reais por posto, não médias"
     },
     "updates": {
-      "value": "4×",
+      "value": "24h",
       "label": "atualizações por dia",
-      "hint": "os preços mudam várias vezes ao dia"
+      "hint": "preços atualizados de forma contínua"
+    },
+    "countries": {
+      "value": "34",
+      "label": "países em 3 continentes",
+      "hint": "Europa, América e Oceania"
     },
     "drivers": {
-      "value": "11",
-      "label": "tipos de combustível",
-      "hint": "gasolina, gasóleo, GPL, GNC e mais"
+      "value": "M+",
+      "label": "janela de mercado",
+      "hint": "milhões de condutores ao alcance"
     },
-    "whyTitle": "Porque atualizamos 4 vezes por dia?",
-    "whyBody": "As fontes oficiais e agregadores publicam preços em diferentes momentos: Espanha e França pela manhã (~06:00–12:00 CET), Itália duas vezes (~08:00 e 14:00), Alemanha e Áustria em tempo real, e os agregadores comunitários reagem ao longo do dia. Para capturar todas as alterações sem saturar as APIs, executamos a nossa pipeline 4 vezes ao dia e os utilizadores veem sempre os preços mais recentes possíveis."
+    "whyTitle": "Porque atualizamos continuamente?",
+    "whyBody": "As fontes oficiais e agregadores publicam preços em diferentes momentos: Espanha e França pela manhã (~06:00–12:00 CET), Itália duas vezes (~08:00 e 14:00), Alemanha e Áustria em tempo real, e os agregadores comunitários reagem ao longo do dia. A nossa pipeline executa-se continuamente para que os utilizadores vejam sempre os preços mais recentes possíveis."
   },
   "privacy": {
     "kicker": "A tua privacidade",
@@ -128,7 +128,7 @@
   },
   "features": {
     "sectionTitle": "Tudo o que precisas para poupar.",
-    "sectionSubtitle": "Sete funcionalidades que mudam a forma como conduzes.",
+    "sectionSubtitle": "Nove funcionalidades que mudam a forma como conduzes.",
     "parking": {
       "kicker": "Estacionamento",
       "title": "Estaciona sem voltas.",
@@ -141,6 +141,12 @@
       "body": "Cartões com preços atualizados diariamente em 34 países da Europa, América e Oceania: de Portugal à Austrália, passando pela Alemanha, México e Turquia.",
       "highlights": ["34 países em 3 continentes", "Dados oficiais por posto", "11 tipos de combustível"]
     },
+    "country": {
+      "kicker": "Cobertura global",
+      "title": "Escolhe o teu país, encontra o teu posto.",
+      "body": "Escolhe entre 34 países em 3 continentes. O Litro adapta-se ao país que selecionares: combustíveis locais, moeda, formato de preços e postos próximos.",
+      "highlights": ["34 países disponíveis", "Troca de país instantânea", "Dados locais por país"]
+    },
     "alerts": {
       "kicker": "Alertas inteligentes",
       "title": "Avisa-me quando descer.",
@@ -152,6 +158,12 @@
       "title": "Tudo perto de ti.",
       "body": "Pinos de postos e parques próximos num mapa fluido. Filtra por marca, preço ou disponibilidade.",
       "highlights": ["Filtro por marca", "Pinos em tempo real", "Modo claro e escuro"]
+    },
+    "routesConfig": {
+      "kicker": "Configura a tua rota",
+      "title": "Personaliza cada detalhe antes de sair.",
+      "body": "Escolhe o ponto de partida, número de paragens, tipo de combustível e se sais com o depósito baixo. O Litro calcula a rota ótima com todos os teus parâmetros.",
+      "highlights": ["Até 6 paragens", "Filtro por combustível", "Modo depósito baixo"]
     },
     "routes": {
       "kicker": "Rotas inteligentes",

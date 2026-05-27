@@ -19,29 +19,29 @@
   "stats": {
     "kicker": "Litro en cifras",
     "title": "Datos que nos respaldan.",
-    "subtitle": "Cobertura en 3 continentes, datos oficiales y una ventana de mercado de cientos de millones de conductores.",
-    "countries": {
-      "value": "34",
-      "label": "países integrados",
-      "hint": "Europa, América y Oceanía"
-    },
+    "subtitle": "Cobertura en 3 continentes, datos oficiales y una ventana de mercado de millones de conductores.",
     "stations": {
-      "value": "+70.000",
-      "label": "estaciones de servicio",
-      "hint": "datos por estación, no medias"
+      "value": "+150.000",
+      "label": "gasolineras registradas",
+      "hint": "datos reales por estación, no medias"
     },
     "updates": {
-      "value": "4×",
+      "value": "24h",
       "label": "actualizaciones al día",
-      "hint": "los precios cambian varias veces al día"
+      "hint": "precios actualizados de forma continua"
+    },
+    "countries": {
+      "value": "34",
+      "label": "países en 3 continentes",
+      "hint": "Europa, América y Oceanía"
     },
     "drivers": {
-      "value": "11",
-      "label": "tipos de combustible",
-      "hint": "gasolina, diésel, GLP, GNC y más"
+      "value": "M+",
+      "label": "ventana de mercado",
+      "hint": "millones de conductores al alcance"
     },
-    "whyTitle": "¿Por qué actualizamos 4 veces al día?",
-    "whyBody": "Las fuentes oficiales y los agregadores publican precios en distintas franjas: España y Francia a primera hora (~06:00–12:00 CET), Italia dos veces (~08:00 y 14:00), Alemania y Austria en tiempo real, y los agregadores comunitarios reaccionan a lo largo del día. Para capturar todos los cambios sin saturar las APIs, ejecutamos nuestro pipeline 4 veces al día y los usuarios ven siempre los precios más recientes posibles."
+    "whyTitle": "¿Por qué actualizamos continuamente?",
+    "whyBody": "Las fuentes oficiales y los agregadores publican precios en distintas franjas: España y Francia a primera hora (~06:00–12:00 CET), Italia dos veces (~08:00 y 14:00), Alemania y Austria en tiempo real, y los agregadores comunitarios reaccionan a lo largo del día. Nuestro pipeline se ejecuta de forma continua para que los usuarios vean siempre los precios más recientes posibles."
   },
   "privacy": {
     "kicker": "Tu privacidad",
@@ -128,7 +128,7 @@
   },
   "features": {
     "sectionTitle": "Todo lo que necesitas para ahorrar.",
-    "sectionSubtitle": "Siete funciones que cambian la forma en la que conduces.",
+    "sectionSubtitle": "Nueve funciones que cambian la forma en la que conduces.",
     "parking": {
       "kicker": "Parkings",
       "title": "Aparca sin vueltas.",
@@ -141,6 +141,12 @@
       "body": "Tarjetas con precios actualizados a diario en 34 países de Europa, América y Oceanía: desde Portugal hasta Australia, pasando por Alemania, México y Turquía.",
       "highlights": ["34 países en 3 continentes", "Datos oficiales por estación", "11 tipos de combustible"]
     },
+    "country": {
+      "kicker": "Cobertura global",
+      "title": "Elige tu país, encuentra tu gasolinera.",
+      "body": "Selecciona entre 34 países en 3 continentes. Litro se adapta al país que elijas: combustibles locales, moneda, formato de precios y estaciones cercanas.",
+      "highlights": ["34 países disponibles", "Cambio de país al instante", "Datos locales por país"]
+    },
     "alerts": {
       "kicker": "Alertas inteligentes",
       "title": "Avísame cuando baje.",
@@ -152,6 +158,12 @@
       "title": "Todo cerca de ti.",
       "body": "Pines de gasolineras y parkings cercanos en un mapa fluido. Filtra por marca, precio o disponibilidad.",
       "highlights": ["Filtro por marca", "Pines en tiempo real", "Modo claro y oscuro"]
+    },
+    "routesConfig": {
+      "kicker": "Configura tu ruta",
+      "title": "Personaliza cada detalle antes de salir.",
+      "body": "Elige punto de partida, número de paradas, tipo de combustible y si sales con el depósito bajo. Litro calcula la ruta óptima con todos tus parámetros.",
+      "highlights": ["Hasta 6 paradas", "Filtro por combustible", "Modo depósito bajo"]
     },
     "routes": {
       "kicker": "Rutas inteligentes",

@@ -19,29 +19,29 @@
   "stats": {
     "kicker": "Litro in numbers",
     "title": "The data that backs us.",
-    "subtitle": "Coverage across 3 continents, official data, and a market reach of hundreds of millions of drivers.",
-    "countries": {
-      "value": "34",
-      "label": "countries integrated",
-      "hint": "Europe, the Americas & Oceania"
-    },
+    "subtitle": "Coverage across 3 continents, official data, and a market reach of millions of drivers.",
     "stations": {
-      "value": "70,000+",
-      "label": "fuel stations",
-      "hint": "per-station data, not averages"
+      "value": "150,000+",
+      "label": "registered fuel stations",
+      "hint": "real per-station data, not averages"
     },
     "updates": {
-      "value": "4×",
+      "value": "24h",
       "label": "updates per day",
-      "hint": "prices change several times daily"
+      "hint": "prices updated continuously"
+    },
+    "countries": {
+      "value": "34",
+      "label": "countries across 3 continents",
+      "hint": "Europe, the Americas & Oceania"
     },
     "drivers": {
-      "value": "11",
-      "label": "fuel types",
-      "hint": "petrol, diesel, LPG, CNG & more"
+      "value": "M+",
+      "label": "market reach",
+      "hint": "millions of drivers within reach"
     },
-    "whyTitle": "Why do we update 4 times a day?",
-    "whyBody": "Official sources and aggregators publish prices in different windows: Spain and France in the morning (~06:00–12:00 CET), Italy twice (~08:00 and 14:00), Germany and Austria in real time, and community aggregators react throughout the day. To capture all changes without hammering the APIs, we run our pipeline 4 times daily and users always see the freshest prices possible."
+    "whyTitle": "Why do we update continuously?",
+    "whyBody": "Official sources and aggregators publish prices in different windows: Spain and France in the morning (~06:00–12:00 CET), Italy twice (~08:00 and 14:00), Germany and Austria in real time, and community aggregators react throughout the day. Our pipeline runs continuously so users always see the freshest prices possible."
   },
   "privacy": {
     "kicker": "Your privacy",
@@ -128,7 +128,7 @@
   },
   "features": {
     "sectionTitle": "Everything you need to save.",
-    "sectionSubtitle": "Seven features that change the way you drive.",
+    "sectionSubtitle": "Nine features that change the way you drive.",
     "parking": {
       "kicker": "Parking",
       "title": "Park without circling.",
@@ -141,6 +141,12 @@
       "body": "Daily-updated price cards across 34 countries in Europe, the Americas and Oceania: from Portugal to Australia, including Germany, Mexico and Turkey.",
       "highlights": ["34 countries on 3 continents", "Official per-station data", "11 fuel types"]
     },
+    "country": {
+      "kicker": "Global coverage",
+      "title": "Pick your country, find your station.",
+      "body": "Choose from 34 countries across 3 continents. Litro adapts to whatever country you select: local fuel types, currency, price format and nearby stations.",
+      "highlights": ["34 countries available", "Switch countries instantly", "Local data per country"]
+    },
     "alerts": {
       "kicker": "Smart alerts",
       "title": "Tell me when it drops.",
@@ -152,6 +158,12 @@
       "title": "Everything near you.",
       "body": "Gas station and parking pins on a smooth map. Filter by brand, price or availability.",
       "highlights": ["Brand filter", "Live pins", "Light & dark mode"]
+    },
+    "routesConfig": {
+      "kicker": "Configure your route",
+      "title": "Customise every detail before you go.",
+      "body": "Choose your starting point, number of stops, fuel type and whether you're running low. Litro calculates the optimal route with all your parameters.",
+      "highlights": ["Up to 6 stops", "Filter by fuel type", "Low-tank mode"]
     },
     "routes": {
       "kicker": "Smart routes",

@@ -19,29 +19,29 @@
   "stats": {
     "kicker": "Litro en chiffres",
     "title": "Les données qui nous soutiennent.",
-    "subtitle": "Couverture sur 3 continents, données officielles et une fenêtre de marché de centaines de millions de conducteurs.",
-    "countries": {
-      "value": "34",
-      "label": "pays intégrés",
-      "hint": "Europe, Amérique et Océanie"
-    },
+    "subtitle": "Couverture sur 3 continents, données officielles et une fenêtre de marché de millions de conducteurs.",
     "stations": {
-      "value": "+70 000",
-      "label": "stations-service",
-      "hint": "données par station, pas des moyennes"
+      "value": "+150 000",
+      "label": "stations-service enregistrées",
+      "hint": "données réelles par station, pas des moyennes"
     },
     "updates": {
-      "value": "4×",
+      "value": "24h",
       "label": "mises à jour par jour",
-      "hint": "les prix changent plusieurs fois par jour"
+      "hint": "prix actualisés en continu"
+    },
+    "countries": {
+      "value": "34",
+      "label": "pays sur 3 continents",
+      "hint": "Europe, Amérique et Océanie"
     },
     "drivers": {
-      "value": "11",
-      "label": "types de carburant",
-      "hint": "essence, diesel, GPL, GNC et plus"
+      "value": "M+",
+      "label": "fenêtre de marché",
+      "hint": "des millions de conducteurs à portée"
     },
-    "whyTitle": "Pourquoi 4 mises à jour par jour ?",
-    "whyBody": "Les sources officielles et agrégateurs publient les prix à différents moments : Espagne et France le matin (~06:00–12:00 CET), Italie deux fois (~08:00 et 14:00), Allemagne et Autriche en temps réel, et les agrégateurs communautaires réagissent tout au long de la journée. Pour capturer tous les changements sans saturer les API, nous exécutons notre pipeline 4 fois par jour et les utilisateurs voient toujours les prix les plus récents possibles."
+    "whyTitle": "Pourquoi des mises à jour en continu ?",
+    "whyBody": "Les sources officielles et agrégateurs publient les prix à différents moments : Espagne et France le matin (~06:00–12:00 CET), Italie deux fois (~08:00 et 14:00), Allemagne et Autriche en temps réel, et les agrégateurs communautaires réagissent tout au long de la journée. Notre pipeline s'exécute en continu afin que les utilisateurs voient toujours les prix les plus récents possibles."
   },
   "privacy": {
     "kicker": "Votre confidentialité",
@@ -128,7 +128,7 @@
   },
   "features": {
     "sectionTitle": "Tout ce dont vous avez besoin pour économiser.",
-    "sectionSubtitle": "Sept fonctionnalités qui changent votre façon de conduire.",
+    "sectionSubtitle": "Neuf fonctionnalités qui changent votre façon de conduire.",
     "parking": {
       "kicker": "Parkings",
       "title": "Garez-vous sans tourner.",
@@ -141,6 +141,12 @@
       "body": "Fiches avec prix mis à jour quotidiennement dans 34 pays d'Europe, d'Amérique et d'Océanie : du Portugal à l'Australie, en passant par l'Allemagne, le Mexique et la Turquie.",
       "highlights": ["34 pays sur 3 continents", "Données officielles par station", "11 types de carburant"]
     },
+    "country": {
+      "kicker": "Couverture mondiale",
+      "title": "Choisissez votre pays, trouvez votre station.",
+      "body": "Choisissez parmi 34 pays sur 3 continents. Litro s'adapte au pays sélectionné : carburants locaux, devise, format de prix et stations à proximité.",
+      "highlights": ["34 pays disponibles", "Changement de pays instantané", "Données locales par pays"]
+    },
     "alerts": {
       "kicker": "Alertes intelligentes",
       "title": "Préviens-moi quand ça baisse.",
@@ -152,6 +158,12 @@
       "title": "Tout près de vous.",
       "body": "Épingles de stations et parkings proches sur une carte fluide. Filtrez par marque, prix ou disponibilité.",
       "highlights": ["Filtre par marque", "Épingles en temps réel", "Mode clair et sombre"]
+    },
+    "routesConfig": {
+      "kicker": "Configurez votre itinéraire",
+      "title": "Personnalisez chaque détail avant de partir.",
+      "body": "Choisissez le point de départ, le nombre d'arrêts, le type de carburant et si vous partez avec peu de carburant. Litro calcule l'itinéraire optimal avec tous vos paramètres.",
+      "highlights": ["Jusqu'à 6 arrêts", "Filtre par carburant", "Mode réservoir bas"]
     },
     "routes": {
       "kicker": "Itinéraires intelligents",
