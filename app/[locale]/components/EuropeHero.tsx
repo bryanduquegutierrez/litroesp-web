@@ -5,12 +5,15 @@ import { geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { FeatureCollection, Feature, Geometry } from "geojson";
 
-// Países UE integrados en la app (ISO 3166-1 alpha-2 minúsculas) — 26 de 27 UE
+// Países europeos integrados en la app — 27 UE + 11 no UE = 38 europeos ✓
 const SUPPORTED_COUNTRIES = new Set([
+  // UE 27
   "es", "fr", "it", "pt", "at", "gr", "de",
   "si", "be", "nl", "lu", "se", "dk", "sk", "cz",
   "ro", "bg", "ee", "lv", "lt", "hu", "pl", "fi",
-  "hr", "ie", "cy",
+  "hr", "ie", "cy", "mt",
+  // Europa no UE
+  "gb", "no", "is", "ch", "md", "rs", "mk", "ba", "al", "xk", "me", "tr",
 ]);
 
 // El TopoJSON de leakyMirror solo tiene NAME (sin ISO).
@@ -39,6 +42,7 @@ const NAME_TO_ISO: Record<string, string> = {
   "Holy See (Vatican City)": "va",
   "Hungary": "hu",
   "Iceland": "is",
+  "Kosovo": "xk",
   "Ireland": "ie",
   "Israel": "il",
   "Italy": "it",

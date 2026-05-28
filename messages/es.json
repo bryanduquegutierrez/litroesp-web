@@ -31,7 +31,7 @@
       "hint": "precios actualizados de forma continua"
     },
     "countries": {
-      "value": "38",
+      "value": "42",
       "label": "países en 3 continentes",
       "hint": "Europa, América y Oceanía"
     },
@@ -104,9 +104,9 @@
     }
   },
   "europeHero": {
-    "kicker": "26 países UE integrados",
+    "kicker": "Los 27 países de la UE integrados",
     "title": "Ayudándote a ahorrar en cada km de Europa.",
-    "subtitle": "Precios oficiales de combustible actualizados a diario en los 26 países de la UE donde ya operamos. Y seguimos sumando.",
+    "subtitle": "Precios oficiales de combustible actualizados a diario en los 27 países de la UE. Cobertura completa.",
     "legendCovered": "{n} países cubiertos",
     "legendOther": "Próximamente"
   },
@@ -138,14 +138,14 @@
     "prices": {
       "kicker": "Precios actualizados",
       "title": "Los precios más bajos, a un toque.",
-      "body": "Tarjetas con precios actualizados a diario en 38 países de Europa, América y Oceanía: desde Portugal hasta Australia, pasando por Alemania, México y Canadá.",
-      "highlights": ["38 países en 3 continentes", "Datos oficiales por estación", "11 tipos de combustible"]
+      "body": "Tarjetas con precios actualizados a diario en 39 países de Europa, América y Oceanía: desde Portugal hasta Australia, pasando por Alemania, México y Canadá.",
+      "highlights": ["39 países en 3 continentes", "Datos oficiales por estación", "11 tipos de combustible"]
     },
     "country": {
       "kicker": "Cobertura global",
       "title": "Elige tu país, encuentra tu gasolinera.",
-      "body": "Selecciona entre 38 países en 3 continentes. Litro se adapta al país que elijas: combustibles locales, moneda, formato de precios y estaciones cercanas.",
-      "highlights": ["38 países disponibles", "Cambio de país al instante", "Datos locales por país"]
+      "body": "Selecciona entre 39 países en 3 continentes. Litro se adapta al país que elijas: combustibles locales, moneda, formato de precios y estaciones cercanas.",
+      "highlights": ["39 países disponibles", "Cambio de país al instante", "Datos locales por país"]
     },
     "alerts": {
       "kicker": "Alertas inteligentes",
@@ -188,7 +188,7 @@
     "kicker": "Anúnciate en Litro",
     "title": "Llega a millones de conductores en Europa.",
     "subtitle": "Parkings, talleres, lavaderos, concesionarios o particulares: si tu negocio quiere visibilidad ante una audiencia europea de conductores activos, hablemos.",
-    "marketStat": "38 países en 3 continentes",
+    "marketStat": "39 países en 3 continentes",
     "audienceStat": "Millones de conductores activos",
     "categoriesTitle": "Pensado para",
     "categories": ["Parkings", "Talleres mecánicos", "Concesionarios y compraventas", "Lavaderos", "Servicios de movilidad", "Particulares"],
@@ -199,7 +199,7 @@
     "kicker": "Nosotros",
     "title": "Un proyecto, una persona.",
     "p1": "Litro nació como un proyecto personal para resolver un problema real: encontrar la gasolinera más barata sin perder tiempo. Detrás de esta app no hay una empresa ni un equipo de 50 personas — solo un desarrollador independiente con muchas ganas de crear algo útil.",
-    "p2": "Todo el desarrollo, el diseño, los servidores, la recopilación de datos de 38 países y el mantenimiento diario los lleva una sola persona. Sin inversores, sin publicidad, sin vender tus datos.",
+    "p2": "Todo el desarrollo, el diseño, los servidores, la recopilación de datos de 39 países y el mantenimiento diario los lleva una sola persona. Sin inversores, sin publicidad, sin vender tus datos.",
     "donateTitle": "Invítanos a un café (o a un depósito lleno)",
     "donateBody": "Mantener Litro funcionando tiene costes reales: servidores, APIs, certificados... Si la app te resulta útil y quieres echar una mano, cualquier aportación nos ayuda a seguir mejorando.",
     "bankTransfer": "Transferencia bancaria",

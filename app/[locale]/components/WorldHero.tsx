@@ -5,14 +5,14 @@ import { geoNaturalEarth1, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { FeatureCollection, Feature, Geometry } from "geojson";
 
-// Países integrados en la app (ISO 3166-1 alpha-2 minúsculas) — 38 países
+// Países integrados en la app (ISO 3166-1 alpha-2 minúsculas) — 42 países
 const SUPPORTED_COUNTRIES = new Set([
-  // UE 26
+  // UE 27 (todos)
   "es", "fr", "it", "pt", "at", "gr", "de",
   "si", "be", "nl", "lu", "se", "dk", "sk", "cz",
-  "ro", "bg", "ee", "lv", "lt", "hu", "pl", "fi", "hr", "ie", "cy",
+  "ro", "bg", "ee", "lv", "lt", "hu", "pl", "fi", "hr", "ie", "cy", "mt",
   // Europa no UE
-  "gb", "no", "is", "ch", "md", "rs", "mk", "ba",
+  "gb", "no", "is", "ch", "md", "rs", "mk", "ba", "al", "xk", "me",
   // Otros continentes
   "mx", "tr", "au", "ca",
 ]);
