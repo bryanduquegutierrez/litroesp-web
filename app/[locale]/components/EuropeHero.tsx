@@ -5,11 +5,12 @@ import { geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { FeatureCollection, Feature, Geometry } from "geojson";
 
-// Países UE integrados en la app (ISO 3166-1 alpha-2 minúsculas)
+// Países UE integrados en la app (ISO 3166-1 alpha-2 minúsculas) — 26 de 27 UE
 const SUPPORTED_COUNTRIES = new Set([
   "es", "fr", "it", "pt", "at", "gr", "de",
   "si", "be", "nl", "lu", "se", "dk", "sk", "cz",
   "ro", "bg", "ee", "lv", "lt", "hu", "pl", "fi",
+  "hr", "ie", "cy",
 ]);
 
 // El TopoJSON de leakyMirror solo tiene NAME (sin ISO).

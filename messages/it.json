@@ -31,7 +31,7 @@
       "hint": "prezzi aggiornati in modo continuo"
     },
     "countries": {
-      "value": "34",
+      "value": "38",
       "label": "paesi in 3 continenti",
       "hint": "Europa, America e Oceania"
     },
@@ -104,9 +104,9 @@
     }
   },
   "europeHero": {
-    "kicker": "23 paesi UE integrati",
+    "kicker": "26 paesi UE integrati",
     "title": "Ti aiutiamo a risparmiare a ogni km in Europa.",
-    "subtitle": "Prezzi ufficiali del carburante aggiornati ogni giorno nei 23 paesi in cui operiamo. E continuiamo a crescere.",
+    "subtitle": "Prezzi ufficiali del carburante aggiornati ogni giorno nei 26 paesi UE in cui operiamo. E continuiamo a crescere.",
     "legendCovered": "{n} paesi coperti",
     "legendOther": "Prossimamente"
   },
@@ -138,14 +138,14 @@
     "prices": {
       "kicker": "Prezzi aggiornati",
       "title": "I prezzi più bassi, a un tocco.",
-      "body": "Schede con prezzi aggiornati ogni giorno in 34 paesi di Europa, America e Oceania: dal Portogallo all'Australia, passando per Germania, Messico e Turchia.",
-      "highlights": ["34 paesi in 3 continenti", "Dati ufficiali per stazione", "11 tipi di carburante"]
+      "body": "Schede con prezzi aggiornati ogni giorno in 38 paesi di Europa, America e Oceania: dal Portogallo all'Australia, passando per Germania, Messico e Canada.",
+      "highlights": ["38 paesi in 3 continenti", "Dati ufficiali per stazione", "11 tipi di carburante"]
     },
     "country": {
       "kicker": "Copertura globale",
       "title": "Scegli il tuo paese, trova la tua stazione.",
-      "body": "Scegli tra 34 paesi in 3 continenti. Litro si adatta al paese selezionato: carburanti locali, valuta, formato prezzi e stazioni vicine.",
-      "highlights": ["34 paesi disponibili", "Cambio paese istantaneo", "Dati locali per paese"]
+      "body": "Scegli tra 38 paesi in 3 continenti. Litro si adatta al paese selezionato: carburanti locali, valuta, formato prezzi e stazioni vicine.",
+      "highlights": ["38 paesi disponibili", "Cambio paese istantaneo", "Dati locali per paese"]
     },
     "alerts": {
       "kicker": "Avvisi intelligenti",
@@ -188,7 +188,7 @@
     "kicker": "Promuoviti su Litro",
     "title": "Raggiungi milioni di conducenti in Europa.",
     "subtitle": "Parcheggi, officine, autolavaggi, concessionarie o privati: se la tua attività vuole visibilità davanti a un pubblico europeo di conducenti attivi, parliamone.",
-    "marketStat": "34 paesi in 3 continenti",
+    "marketStat": "38 paesi in 3 continenti",
     "audienceStat": "Milioni di conducenti attivi",
     "categoriesTitle": "Pensato per",
     "categories": ["Parcheggi", "Officine meccaniche", "Concessionarie e rivenditori", "Autolavaggi", "Servizi di mobilità", "Privati"],
@@ -199,7 +199,7 @@
     "kicker": "Chi siamo",
     "title": "Un progetto, una persona.",
     "p1": "Litro è nato come un progetto personale per risolvere un problema reale: trovare la stazione di servizio più economica senza perdere tempo. Dietro questa app non c'è un'azienda né un team di 50 persone — solo uno sviluppatore indipendente con tanta voglia di creare qualcosa di utile.",
-    "p2": "Tutto lo sviluppo, il design, i server, la raccolta dati da 34 paesi e la manutenzione quotidiana sono gestiti da una sola persona. Senza investitori, senza pubblicità, senza vendere i tuoi dati.",
+    "p2": "Tutto lo sviluppo, il design, i server, la raccolta dati da 38 paesi e la manutenzione quotidiana sono gestiti da una sola persona. Senza investitori, senza pubblicità, senza vendere i tuoi dati.",
     "donateTitle": "Offrici un caffè (o un pieno)",
     "donateBody": "Mantenere Litro ha costi reali: server, API, certificati... Se l'app ti è utile e vuoi dare una mano, qualsiasi contributo ci aiuta a migliorare.",
     "bankTransfer": "Bonifico bancario",

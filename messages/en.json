@@ -31,7 +31,7 @@
       "hint": "prices updated continuously"
     },
     "countries": {
-      "value": "34",
+      "value": "38",
       "label": "countries across 3 continents",
       "hint": "Europe, the Americas & Oceania"
     },
@@ -104,9 +104,9 @@
     }
   },
   "europeHero": {
-    "kicker": "23 EU countries integrated",
+    "kicker": "26 EU countries integrated",
     "title": "Helping you save on every km across Europe.",
-    "subtitle": "Daily-updated official fuel prices across the 23 countries we already cover. And more on the way.",
+    "subtitle": "Daily-updated official fuel prices across the 26 EU countries we already cover. And more on the way.",
     "legendCovered": "{n} countries covered",
     "legendOther": "Coming soon"
   },
@@ -138,14 +138,14 @@
     "prices": {
       "kicker": "Live prices",
       "title": "The cheapest prices, one tap away.",
-      "body": "Daily-updated price cards across 34 countries in Europe, the Americas and Oceania: from Portugal to Australia, including Germany, Mexico and Turkey.",
-      "highlights": ["34 countries on 3 continents", "Official per-station data", "11 fuel types"]
+      "body": "Daily-updated price cards across 38 countries in Europe, the Americas and Oceania: from Portugal to Australia, including Germany, Mexico and Canada.",
+      "highlights": ["38 countries on 3 continents", "Official per-station data", "11 fuel types"]
     },
     "country": {
       "kicker": "Global coverage",
       "title": "Pick your country, find your station.",
-      "body": "Choose from 34 countries across 3 continents. Litro adapts to whatever country you select: local fuel types, currency, price format and nearby stations.",
-      "highlights": ["34 countries available", "Switch countries instantly", "Local data per country"]
+      "body": "Choose from 38 countries across 3 continents. Litro adapts to whatever country you select: local fuel types, currency, price format and nearby stations.",
+      "highlights": ["38 countries available", "Switch countries instantly", "Local data per country"]
     },
     "alerts": {
       "kicker": "Smart alerts",
@@ -188,7 +188,7 @@
     "kicker": "Advertise on Litro",
     "title": "Reach millions of drivers across Europe.",
     "subtitle": "Parking lots, garages, car washes, dealers or individuals: if your business wants visibility in front of a European audience of active drivers, let's talk.",
-    "marketStat": "34 countries across 3 continents",
+    "marketStat": "38 countries across 3 continents",
     "audienceStat": "Millions of active drivers",
     "categoriesTitle": "Built for",
     "categories": ["Parking lots", "Garages & mechanics", "Dealerships & resellers", "Car washes", "Mobility services", "Individuals"],
@@ -199,7 +199,7 @@
     "kicker": "About us",
     "title": "One project, one person.",
     "p1": "Litro started as a personal project to solve a real problem: finding the cheapest petrol station without wasting time. Behind this app there's no company or team of 50 — just one independent developer with a strong drive to build something useful.",
-    "p2": "All the development, design, servers, data collection across 34 countries and daily maintenance is handled by a single person. No investors, no ads, no selling your data.",
+    "p2": "All the development, design, servers, data collection across 38 countries and daily maintenance is handled by a single person. No investors, no ads, no selling your data.",
     "donateTitle": "Buy us a coffee (or a full tank)",
     "donateBody": "Keeping Litro running has real costs: servers, APIs, certificates... If you find the app useful and want to help out, any contribution helps us keep improving.",
     "bankTransfer": "Bank transfer",
