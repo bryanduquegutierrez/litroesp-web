@@ -21,7 +21,7 @@
     "title": "Die Daten, die uns stützen.",
     "subtitle": "Abdeckung auf 5 Kontinenten, offizielle Daten und ein Marktfenster von Millionen Autofahrern.",
     "stations": {
-      "value": "+200.000",
+      "value": "+300.000",
       "label": "registrierte Tankstellen",
       "hint": "echte Daten pro Tankstelle, keine Durchschnitte"
     },
@@ -31,7 +31,7 @@
       "hint": "Preise werden fortlaufend aktualisiert"
     },
     "countries": {
-      "value": "94",
+      "value": "96",
       "label": "Länder auf 5 Kontinenten",
       "hint": "Europa, Asien, Afrika, Amerika und Ozeanien"
     },
@@ -138,14 +138,14 @@
     "prices": {
       "kicker": "Aktuelle Preise",
       "title": "Die günstigsten Preise mit einem Tipp.",
-      "body": "Täglich aktualisierte Preiskarten in 94 Ländern in Europa, Asien, Afrika, Amerika und Ozeanien: von Portugal bis Australien, einschließlich Deutschland, Mexiko und Kanada.",
-      "highlights": ["94 Länder auf 5 Kontinenten", "Offizielle Daten pro Tankstelle", "11 Kraftstoffarten"]
+      "body": "Täglich aktualisierte Preiskarten in 96 Ländern in Europa, Asien, Afrika, Amerika und Ozeanien: von Portugal bis Australien, einschließlich Deutschland, Mexiko und Kanada.",
+      "highlights": ["96 Länder auf 5 Kontinenten", "Offizielle Daten pro Tankstelle", "11 Kraftstoffarten"]
     },
     "country": {
       "kicker": "Globale Abdeckung",
       "title": "Wähle dein Land, finde deine Tankstelle.",
-      "body": "Wähle aus 94 Ländern auf 5 Kontinenten. Litro passt sich dem gewählten Land an: lokale Kraftstoffe, Währung, Preisformat und nahegelegene Tankstellen.",
-      "highlights": ["94 Länder verfügbar", "Sofortiger Länderwechsel", "Lokale Daten pro Land"]
+      "body": "Wähle aus 96 Ländern auf 5 Kontinenten. Litro passt sich dem gewählten Land an: lokale Kraftstoffe, Währung, Preisformat und nahegelegene Tankstellen.",
+      "highlights": ["96 Länder verfügbar", "Sofortiger Länderwechsel", "Lokale Daten pro Land"]
     },
     "alerts": {
       "kicker": "Intelligente Benachrichtigungen",
@@ -188,7 +188,7 @@
     "kicker": "Wirb auf Litro",
     "title": "Erreiche Millionen Autofahrer in ganz Europa.",
     "subtitle": "Parkplätze, Werkstätten, Waschanlagen, Autohäuser oder Privatpersonen: Wenn dein Unternehmen Sichtbarkeit vor einem europäischen Publikum aktiver Autofahrer möchte, lass uns reden.",
-    "marketStat": "94 Länder auf 5 Kontinenten",
+    "marketStat": "96 Länder auf 5 Kontinenten",
     "audienceStat": "Millionen aktive Autofahrer",
     "categoriesTitle": "Gemacht für",
     "categories": ["Parkplätze", "Werkstätten", "Autohäuser und Händler", "Waschanlagen", "Mobilitätsdienste", "Privatpersonen"],
@@ -199,7 +199,7 @@
     "kicker": "Über uns",
     "title": "Ein Projekt, eine Person.",
     "p1": "Litro entstand als persönliches Projekt, um ein echtes Problem zu lösen: die günstigste Tankstelle finden, ohne Zeit zu verschwenden. Hinter dieser App steckt kein Unternehmen und kein 50-köpfiges Team — nur ein unabhängiger Entwickler mit dem Wunsch, etwas Nützliches zu schaffen.",
-    "p2": "Die gesamte Entwicklung, das Design, die Server, die Datensammlung aus 94 Ländern und die tägliche Wartung werden von einer einzigen Person betrieben. Ohne Investoren, ohne Werbung, ohne deine Daten zu verkaufen.",
+    "p2": "Die gesamte Entwicklung, das Design, die Server, die Datensammlung aus 96 Ländern und die tägliche Wartung werden von einer einzigen Person betrieben. Ohne Investoren, ohne Werbung, ohne deine Daten zu verkaufen.",
     "donateTitle": "Spendier uns einen Kaffee (oder eine volle Tankfüllung)",
     "donateBody": "Litro am Laufen zu halten hat echte Kosten: Server, APIs, Zertifikate... Wenn dir die App nützlich ist und du helfen möchtest, hilft uns jeder Beitrag weiterzumachen.",
     "bankTransfer": "Banküberweisung",
