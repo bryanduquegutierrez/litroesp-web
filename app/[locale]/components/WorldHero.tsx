@@ -5,7 +5,7 @@ import { geoNaturalEarth1, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { FeatureCollection, Feature, Geometry } from "geojson";
 
-// Países integrados en la app (ISO 3166-1 alpha-2 minúsculas) — 42 países
+// Países integrados en la app (ISO 3166-1 alpha-2 minúsculas) — 94 países
 const SUPPORTED_COUNTRIES = new Set([
   // UE 27 (todos)
   "es", "fr", "it", "pt", "at", "gr", "de",
@@ -13,8 +13,20 @@ const SUPPORTED_COUNTRIES = new Set([
   "ro", "bg", "ee", "lv", "lt", "hu", "pl", "fi", "hr", "ie", "cy", "mt",
   // Europa no UE
   "gb", "no", "is", "ch", "md", "rs", "mk", "ba", "al", "xk", "me",
-  // Otros continentes
-  "mx", "tr", "au", "ca",
+  "ua", "ge", "by", "az", "am",
+  // Oriente Medio / Golfo
+  "il", "sa", "ae", "om", "qa", "kw", "jo", "lb",
+  // Asia
+  "tr", "in", "jp", "th", "kr", "vn", "ph", "my", "tw", "sg", "hk",
+  "kz", "uz", "kg", "pk", "bd", "lk", "np",
+  // África
+  "ma", "tn", "eg", "za", "gh", "ke", "dz", "ng", "mu",
+  // América
+  "mx", "ca", "uy", "bo", "py", "ec", "pa", "co", "do", "hn", "sv", "br",
+  // Oceanía
+  "au", "nz",
+  // Microestados
+  "ad", "mc",
 ]);
 
 // Mapeo UN M49 → ISO 3166-1 alpha-2 (los IDs que vienen en el topojson world-atlas)
