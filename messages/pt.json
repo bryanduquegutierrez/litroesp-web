@@ -21,7 +21,7 @@
     "title": "Os dados que nos sustentam.",
     "subtitle": "Cobertura em 5 continentes, dados oficiais e uma janela de mercado de milhões de condutores.",
     "stations": {
-      "value": "+290.000",
+      "value": "+350.000",
       "label": "postos registados",
       "hint": "dados reais por posto, não médias"
     },
@@ -31,7 +31,7 @@
       "hint": "preços atualizados de forma contínua"
     },
     "countries": {
-      "value": "96",
+      "value": "100",
       "label": "países em 5 continentes",
       "hint": "Europa, Ásia, África, América e Oceania"
     },
@@ -138,14 +138,14 @@
     "prices": {
       "kicker": "Preços atualizados",
       "title": "Os preços mais baixos, a um toque.",
-      "body": "Cartões com preços atualizados diariamente em 96 países da Europa, Ásia, África, América e Oceania: de Portugal à Austrália, passando pela Alemanha, México e Canadá.",
-      "highlights": ["96 países em 5 continentes", "Dados oficiais por posto", "11 tipos de combustível"]
+      "body": "Cartões com preços atualizados diariamente em 100 países da Europa, Ásia, África, América e Oceania: de Portugal à Austrália, passando pela Alemanha, México e Canadá.",
+      "highlights": ["100 países em 5 continentes", "Dados oficiais por posto", "11 tipos de combustível"]
     },
     "country": {
       "kicker": "Cobertura global",
       "title": "Escolhe o teu país, encontra o teu posto.",
-      "body": "Escolhe entre 96 países em 5 continentes. O Litro adapta-se ao país que selecionares: combustíveis locais, moeda, formato de preços e postos próximos.",
-      "highlights": ["96 países disponíveis", "Troca de país instantânea", "Dados locais por país"]
+      "body": "Escolhe entre 100 países em 5 continentes. O Litro adapta-se ao país que selecionares: combustíveis locais, moeda, formato de preços e postos próximos.",
+      "highlights": ["100 países disponíveis", "Troca de país instantânea", "Dados locais por país"]
     },
     "alerts": {
       "kicker": "Alertas inteligentes",
@@ -188,7 +188,7 @@
     "kicker": "Anuncia na Litro",
     "title": "Chega a milhões de condutores na Europa.",
     "subtitle": "Parques de estacionamento, oficinas, lavagens, stands ou particulares: se o teu negócio quer visibilidade junto de uma audiência europeia de condutores ativos, fala connosco.",
-    "marketStat": "96 países em 5 continentes",
+    "marketStat": "100 países em 5 continentes",
     "audienceStat": "Milhões de condutores ativos",
     "categoriesTitle": "Pensado para",
     "categories": ["Parques de estacionamento", "Oficinas mecânicas", "Stands e revendedores", "Lavagens", "Serviços de mobilidade", "Particulares"],
@@ -199,7 +199,7 @@
     "kicker": "Sobre nós",
     "title": "Um projeto, uma pessoa.",
     "p1": "O Litro nasceu como um projeto pessoal para resolver um problema real: encontrar o posto mais barato sem perder tempo. Por trás desta app não há uma empresa nem uma equipa de 50 pessoas — apenas um programador independente com muita vontade de criar algo útil.",
-    "p2": "Todo o desenvolvimento, o design, os servidores, a recolha de dados de 96 países e a manutenção diária são geridos por uma única pessoa. Sem investidores, sem publicidade, sem vender os teus dados.",
+    "p2": "Todo o desenvolvimento, o design, os servidores, a recolha de dados de 100 países e a manutenção diária são geridos por uma única pessoa. Sem investidores, sem publicidade, sem vender os teus dados.",
     "donateTitle": "Oferece-nos um café (ou um depósito cheio)",
     "donateBody": "Manter o Litro a funcionar tem custos reais: servidores, APIs, certificados... Se a app te é útil e queres ajudar, qualquer contribuição ajuda-nos a continuar.",
     "bankTransfer": "Transferência bancária",

@@ -21,7 +21,7 @@
     "title": "Les données qui nous soutiennent.",
     "subtitle": "Couverture sur 5 continents, données officielles et une fenêtre de marché de millions de conducteurs.",
     "stations": {
-      "value": "+290 000",
+      "value": "+350 000",
       "label": "stations-service enregistrées",
       "hint": "données réelles par station, pas des moyennes"
     },
@@ -31,7 +31,7 @@
       "hint": "prix actualisés en continu"
     },
     "countries": {
-      "value": "96",
+      "value": "100",
       "label": "pays sur 5 continents",
       "hint": "Europe, Asie, Afrique, Amérique et Océanie"
     },
@@ -138,14 +138,14 @@
     "prices": {
       "kicker": "Prix actualisés",
       "title": "Les prix les plus bas, en un toucher.",
-      "body": "Fiches avec prix mis à jour quotidiennement dans 96 pays d'Europe, d'Asie, d'Afrique, d'Amérique et d'Océanie : du Portugal à l'Australie, en passant par l'Allemagne, le Mexique et le Canada.",
-      "highlights": ["96 pays sur 5 continents", "Données officielles par station", "11 types de carburant"]
+      "body": "Fiches avec prix mis à jour quotidiennement dans 100 pays d'Europe, d'Asie, d'Afrique, d'Amérique et d'Océanie : du Portugal à l'Australie, en passant par l'Allemagne, le Mexique et le Canada.",
+      "highlights": ["100 pays sur 5 continents", "Données officielles par station", "11 types de carburant"]
     },
     "country": {
       "kicker": "Couverture mondiale",
       "title": "Choisissez votre pays, trouvez votre station.",
-      "body": "Choisissez parmi 96 pays sur 5 continents. Litro s'adapte au pays sélectionné : carburants locaux, devise, format de prix et stations à proximité.",
-      "highlights": ["96 pays disponibles", "Changement de pays instantané", "Données locales par pays"]
+      "body": "Choisissez parmi 100 pays sur 5 continents. Litro s'adapte au pays sélectionné : carburants locaux, devise, format de prix et stations à proximité.",
+      "highlights": ["100 pays disponibles", "Changement de pays instantané", "Données locales par pays"]
     },
     "alerts": {
       "kicker": "Alertes intelligentes",
@@ -188,7 +188,7 @@
     "kicker": "Annoncez sur Litro",
     "title": "Atteignez des millions de conducteurs en Europe.",
     "subtitle": "Parkings, garages, lavages, concessions ou particuliers : si votre activité veut de la visibilité face à une audience européenne de conducteurs actifs, parlons-en.",
-    "marketStat": "96 pays sur 5 continents",
+    "marketStat": "100 pays sur 5 continents",
     "audienceStat": "Des millions de conducteurs actifs",
     "categoriesTitle": "Pensé pour",
     "categories": ["Parkings", "Garages et mécaniciens", "Concessions et revendeurs", "Lavages auto", "Services de mobilité", "Particuliers"],
@@ -199,7 +199,7 @@
     "kicker": "Qui sommes-nous",
     "title": "Un projet, une personne.",
     "p1": "Litro est né comme un projet personnel pour résoudre un vrai problème : trouver la station-service la moins chère sans perdre de temps. Derrière cette app, il n'y a ni entreprise ni équipe de 50 personnes — juste un développeur indépendant passionné.",
-    "p2": "Tout le développement, le design, les serveurs, la collecte de données de 96 pays et la maintenance quotidienne sont gérés par une seule personne. Sans investisseurs, sans publicité, sans vendre vos données.",
+    "p2": "Tout le développement, le design, les serveurs, la collecte de données de 100 pays et la maintenance quotidienne sont gérés par une seule personne. Sans investisseurs, sans publicité, sans vendre vos données.",
     "donateTitle": "Offrez-nous un café (ou un plein)",
     "donateBody": "Faire tourner Litro a des coûts réels : serveurs, APIs, certificats... Si l'app vous est utile et que vous souhaitez aider, toute contribution nous aide à continuer.",
     "bankTransfer": "Virement bancaire",
