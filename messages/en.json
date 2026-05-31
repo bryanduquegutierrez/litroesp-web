@@ -218,7 +218,38 @@
     "tagline": "Drive smart, drive saving.",
     "rights": "All rights reserved.",
     "privacy": "Privacy policy",
+    "deleteAccount": "Delete account",
     "terms": "Terms",
     "contact": "Contact"
+  },
+  "deleteAccount": {
+    "kicker": "Delete account",
+    "title": "Delete your Litro account",
+    "subtitle": "How to request that your Litro account and associated data be deleted, and what information is removed or kept.",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdatedDate": "31 May 2026",
+    "backHome": "Back to home",
+    "contactPrompt": "Questions about deleting your account? Email us at",
+    "inApp": {
+      "title": "Delete from the app (instant)",
+      "intro": "The fastest way is to do it yourself from the Litro app. Deletion is permanent and immediate:",
+      "steps": ["Open the Litro app and sign in to your account.", "Go to the «Settings» tab.", "Scroll down to the «Delete account» button.", "Confirm twice to prevent accidental deletion."],
+      "note": "Once confirmed, your account and data are removed instantly and you are signed out automatically."
+    },
+    "byEmail": {
+      "title": "Request by email",
+      "body": "If you can't access the app, email us from the address you registered with, stating that you want your account deleted. We will process the request within 30 days at most.",
+      "subject": "Account deletion request — Litro"
+    },
+    "deleted": {
+      "title": "Data that is deleted",
+      "intro": "When you delete your account we permanently remove:",
+      "items": ["Your saved gas stations and parkings (favourites).", "Your price alerts and zone alerts.", "The push notification tokens for your devices.", "The history of notifications we sent you.", "Your profile: licence plate, preferred fuel, language and settings.", "Your login record (authentication account)."]
+    },
+    "kept": {
+      "title": "Data that is kept and retention period",
+      "intro": "Litro does not sell or share your data. After deletion, almost everything is removed immediately. The only exceptions are:",
+      "items": ["A minimal record (your email and/or the identifier from your Apple/Google sign-in provider) that we keep to properly complete the deletion and prevent abuse. You can ask us to remove it by email.", "Encrypted backups may contain residual data that is overwritten and fully deleted within 30 days at most."]
+    }
   }
 }

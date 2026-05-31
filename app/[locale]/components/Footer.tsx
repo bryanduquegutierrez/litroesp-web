@@ -25,6 +25,13 @@ export function Footer() {
             {t("privacy")}
           </Link>
           <span aria-hidden>·</span>
+          <Link
+            href="/delete-account"
+            className="hover:text-[color:var(--fg)] transition-colors"
+          >
+            {t("deleteAccount")}
+          </Link>
+          <span aria-hidden>·</span>
           <a
             href="mailto:litroesp@gmail.com"
             className="hover:text-[color:var(--fg)] transition-colors"

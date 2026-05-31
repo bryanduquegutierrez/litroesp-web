@@ -218,7 +218,38 @@
     "tagline": "Klug fahren, sparend fahren.",
     "rights": "Alle Rechte vorbehalten.",
     "privacy": "Datenschutzrichtlinie",
+    "deleteAccount": "Konto löschen",
     "terms": "Bedingungen",
     "contact": "Kontakt"
+  },
+  "deleteAccount": {
+    "kicker": "Konto löschen",
+    "title": "Dein Litro-Konto löschen",
+    "subtitle": "So beantragst du die Löschung deines Litro-Kontos und der zugehörigen Daten und welche Informationen entfernt oder aufbewahrt werden.",
+    "lastUpdatedLabel": "Zuletzt aktualisiert",
+    "lastUpdatedDate": "31. Mai 2026",
+    "backHome": "Zurück zur Startseite",
+    "contactPrompt": "Fragen zur Löschung deines Kontos? Schreib uns an",
+    "inApp": {
+      "title": "In der App löschen (sofort)",
+      "intro": "Am schnellsten geht es selbst über die Litro-App. Die Löschung ist dauerhaft und sofort wirksam:",
+      "steps": ["Öffne die Litro-App und melde dich bei deinem Konto an.", "Gehe zum Tab «Einstellungen».", "Scrolle nach unten zur Schaltfläche «Konto löschen».", "Bestätige zweimal, um versehentliches Löschen zu vermeiden."],
+      "note": "Nach der Bestätigung werden dein Konto und deine Daten sofort entfernt und du wirst automatisch abgemeldet."
+    },
+    "byEmail": {
+      "title": "Per E-Mail anfragen",
+      "body": "Wenn du nicht auf die App zugreifen kannst, schreib uns von der E-Mail-Adresse, mit der du dich registriert hast, und gib an, dass du dein Konto löschen möchtest. Wir bearbeiten die Anfrage innerhalb von höchstens 30 Tagen.",
+      "subject": "Antrag auf Kontolöschung — Litro"
+    },
+    "deleted": {
+      "title": "Daten, die gelöscht werden",
+      "intro": "Wenn du dein Konto löschst, entfernen wir dauerhaft:",
+      "items": ["Deine gespeicherten Tankstellen und Parkplätze (Favoriten).", "Deine Preis- und Zonen-Benachrichtigungen.", "Die Push-Benachrichtigungs-Token deiner Geräte.", "Den Verlauf der gesendeten Benachrichtigungen.", "Dein Profil: Kennzeichen, bevorzugter Kraftstoff, Sprache und Einstellungen.", "Deinen Anmeldedatensatz (Authentifizierungskonto)."]
+    },
+    "kept": {
+      "title": "Aufbewahrte Daten und Aufbewahrungsfrist",
+      "intro": "Litro verkauft oder teilt deine Daten nicht. Nach der Löschung wird fast alles sofort entfernt. Die einzigen Ausnahmen sind:",
+      "items": ["Ein minimaler Datensatz (deine E-Mail und/oder die Kennung deines Apple-/Google-Anmeldeanbieters), den wir aufbewahren, um die Löschung korrekt abzuschließen und Missbrauch zu verhindern. Du kannst per E-Mail um Entfernung bitten.", "Verschlüsselte Backups können Restdaten enthalten, die innerhalb von höchstens 30 Tagen überschrieben und vollständig gelöscht werden."]
+    }
   }
 }

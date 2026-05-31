@@ -218,7 +218,38 @@
     "tagline": "Conduisez malin, conduisez en économisant.",
     "rights": "Tous droits réservés.",
     "privacy": "Politique de confidentialité",
+    "deleteAccount": "Supprimer le compte",
     "terms": "Conditions",
     "contact": "Contact"
+  },
+  "deleteAccount": {
+    "kicker": "Supprimer le compte",
+    "title": "Supprimer votre compte Litro",
+    "subtitle": "Comment demander la suppression de votre compte Litro et des données associées, et quelles informations sont supprimées ou conservées.",
+    "lastUpdatedLabel": "Dernière mise à jour",
+    "lastUpdatedDate": "31 mai 2026",
+    "backHome": "Retour à l'accueil",
+    "contactPrompt": "Des questions sur la suppression de votre compte ? Écrivez-nous à",
+    "inApp": {
+      "title": "Supprimer depuis l'application (immédiat)",
+      "intro": "Le plus rapide est de le faire vous-même depuis l'application Litro. La suppression est permanente et immédiate :",
+      "steps": ["Ouvrez l'application Litro et connectez-vous à votre compte.", "Allez dans l'onglet « Paramètres ».", "Faites défiler jusqu'au bouton « Supprimer le compte ».", "Confirmez deux fois pour éviter toute suppression accidentelle."],
+      "note": "Une fois confirmé, votre compte et vos données sont supprimés instantanément et vous êtes déconnecté automatiquement."
+    },
+    "byEmail": {
+      "title": "Demander par e-mail",
+      "body": "Si vous ne pouvez pas accéder à l'application, écrivez-nous depuis l'adresse e-mail avec laquelle vous vous êtes inscrit, en indiquant que vous souhaitez supprimer votre compte. Nous traiterons la demande sous 30 jours maximum.",
+      "subject": "Demande de suppression de compte — Litro"
+    },
+    "deleted": {
+      "title": "Données supprimées",
+      "intro": "Lorsque vous supprimez votre compte, nous effaçons définitivement :",
+      "items": ["Vos stations-service et parkings enregistrés (favoris).", "Vos alertes de prix et alertes de zone.", "Les jetons de notifications push de vos appareils.", "L'historique des notifications que nous vous avons envoyées.", "Votre profil : plaque d'immatriculation, carburant préféré, langue et paramètres.", "Votre enregistrement de connexion (compte d'authentification)."]
+    },
+    "kept": {
+      "title": "Données conservées et durée de conservation",
+      "intro": "Litro ne vend ni ne partage vos données. Après la suppression, presque tout est retiré immédiatement. Les seules exceptions sont :",
+      "items": ["Un enregistrement minimal (votre e-mail et/ou l'identifiant de votre fournisseur de connexion Apple/Google) que nous conservons pour finaliser correctement la suppression et éviter les abus. Vous pouvez demander son retrait par e-mail.", "Les sauvegardes chiffrées peuvent contenir des données résiduelles qui sont écrasées et entièrement supprimées sous 30 jours maximum."]
+    }
   }
 }

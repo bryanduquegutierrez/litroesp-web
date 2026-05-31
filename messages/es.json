@@ -218,7 +218,38 @@
     "tagline": "Conduce listo, conduce ahorrando.",
     "rights": "Todos los derechos reservados.",
     "privacy": "Política de privacidad",
+    "deleteAccount": "Eliminar cuenta",
     "terms": "Términos",
     "contact": "Contacto"
+  },
+  "deleteAccount": {
+    "kicker": "Eliminar cuenta",
+    "title": "Eliminar tu cuenta de Litro",
+    "subtitle": "Cómo solicitar que tu cuenta de Litro y los datos asociados se eliminen, y qué información se borra o se conserva.",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdatedDate": "31 de mayo de 2026",
+    "backHome": "Volver al inicio",
+    "contactPrompt": "¿Dudas sobre cómo eliminar tu cuenta? Escríbenos a",
+    "inApp": {
+      "title": "Eliminar desde la app (inmediato)",
+      "intro": "La forma más rápida es hacerlo tú mismo desde la propia app Litro. El borrado es permanente e inmediato:",
+      "steps": ["Abre la app Litro e inicia sesión con tu cuenta.", "Ve a la pestaña «Ajustes».", "Baja hasta el botón «Eliminar cuenta».", "Confirma dos veces para evitar borrados accidentales."],
+      "note": "Al confirmar, tu cuenta y tus datos se eliminan al instante y se cierra la sesión automáticamente."
+    },
+    "byEmail": {
+      "title": "Solicitarlo por correo",
+      "body": "Si no puedes acceder a la app, escríbenos desde la dirección de correo con la que te registraste, indicando que quieres eliminar tu cuenta. Procesaremos la solicitud en un plazo máximo de 30 días.",
+      "subject": "Solicitud de eliminación de cuenta — Litro"
+    },
+    "deleted": {
+      "title": "Datos que se eliminan",
+      "intro": "Al eliminar tu cuenta borramos de forma permanente:",
+      "items": ["Tus gasolineras y parkings guardados (favoritos).", "Tus alertas de precio y alertas de zona.", "Los tokens de notificaciones push de tus dispositivos.", "El historial de notificaciones que te enviamos.", "Tu perfil: matrícula, combustible preferido, idioma y ajustes.", "Tu registro de acceso (cuenta de autenticación)."]
+    },
+    "kept": {
+      "title": "Datos que se conservan y plazo de retención",
+      "intro": "Litro no vende ni comparte tus datos. Tras eliminar la cuenta, casi todo desaparece de inmediato. Las únicas excepciones son:",
+      "items": ["Un registro mínimo (tu correo y/o el identificador de tu proveedor de acceso de Apple/Google) que conservamos para completar correctamente la baja y evitar usos indebidos. Puedes pedir su eliminación escribiéndonos.", "Las copias de seguridad cifradas pueden contener datos residuales que se sobrescriben y eliminan por completo en un plazo máximo de 30 días."]
+    }
   }
 }
