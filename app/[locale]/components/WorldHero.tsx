@@ -5,7 +5,7 @@ import { geoNaturalEarth1, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { FeatureCollection, Feature, Geometry } from "geojson";
 
-// Países integrados en la app (ISO 3166-1 alpha-2 minúsculas) — 94 países
+// Países integrados en la app (ISO 3166-1 alpha-2 minúsculas) — 99 países
 const SUPPORTED_COUNTRIES = new Set([
   // UE 27 (todos)
   "es", "fr", "it", "pt", "at", "gr", "de",
@@ -13,21 +13,25 @@ const SUPPORTED_COUNTRIES = new Set([
   "ro", "bg", "ee", "lv", "lt", "hu", "pl", "fi", "hr", "ie", "cy", "mt",
   // Europa no UE
   "gb", "no", "is", "ch", "md", "rs", "mk", "ba", "al", "xk", "me",
-  "ua", "ge", "by", "az", "am",
+  "ua", "ge", "by", "az", "am", "ru",
   // Oriente Medio / Golfo
   "il", "sa", "ae", "om", "qa", "kw", "jo", "lb",
   // Asia
   "tr", "in", "jp", "th", "kr", "vn", "ph", "my", "tw", "sg", "hk",
-  "kz", "uz", "kg", "pk", "bd", "lk", "np",
+  "kz", "uz", "kg", "pk", "bd", "lk", "np", "cn", "id",
   // África
   "ma", "tn", "eg", "za", "gh", "ke", "dz", "ng", "mu",
   // América
   "mx", "ca", "uy", "bo", "py", "ec", "pa", "co", "do", "hn", "sv", "br",
+  "ar", "cl",
   // Oceanía
   "au", "nz",
   // Microestados
   "ad", "mc",
 ]);
+
+// Nº mostrado en la leyenda: 99 países reales redondeado a 100 (cifra de marketing).
+const COVERED_COUNT = 100;
 
 // Mapeo UN M49 → ISO 3166-1 alpha-2 (los IDs que vienen en el topojson world-atlas)
 const M49_TO_ISO2: Record<string, string> = {
@@ -178,7 +182,7 @@ export async function WorldHero() {
       <div className="relative mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-[color:var(--muted)] px-6">
         <div className="flex items-center gap-2">
           <span className="w-4 h-4 rounded-sm inline-block" style={{ backgroundColor: SUPPORTED_COLOR }} />
-          <span>{t("legendCovered", { n: SUPPORTED_COUNTRIES.size })}</span>
+          <span>{t("legendCovered", { n: COVERED_COUNT })}</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="w-4 h-4 rounded-sm border border-gray-300 inline-block" style={{ backgroundColor: REST_COLOR }} />
