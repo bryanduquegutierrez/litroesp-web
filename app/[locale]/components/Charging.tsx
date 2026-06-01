@@ -18,7 +18,7 @@ function PhoneShot({ src, caption }: { src: string; caption: string }) {
   return (
     <div className="flex flex-col items-center gap-3">
       <div
-        className="relative rounded-[2.5rem] bg-gradient-to-br from-emerald-100 to-teal-200 p-2.5 shadow-2xl shadow-emerald-900/10 w-full max-w-[230px] sm:max-w-[250px]"
+        className="relative rounded-[2.5rem] bg-gradient-to-br from-emerald-100 to-teal-200 p-2.5 shadow-2xl shadow-emerald-900/10 w-full max-w-[260px] sm:max-w-[280px]"
         style={{ aspectRatio: "1242 / 2688" }}
       >
         <div className="relative rounded-[2rem] w-full h-full overflow-hidden bg-white">
@@ -26,7 +26,7 @@ function PhoneShot({ src, caption }: { src: string; caption: string }) {
             src={src}
             alt={caption}
             fill
-            sizes="(max-width: 1024px) 230px, 250px"
+            sizes="(max-width: 1024px) 260px, 280px"
             className="object-contain"
           />
         </div>
