@@ -9,6 +9,7 @@
   },
   "nav": {
     "features": "Funktionen",
+    "charging": "Laden",
     "download": "Download",
     "stats": "Zahlen",
     "contact": "Kontakt",
@@ -182,6 +183,39 @@
       "title": "Sieh, wie viel du gespart hast.",
       "body": "Ein Zähler, der jeden Euro festhält, den du mit Litro gespart hast. Denn jeder Tankvorgang zählt.",
       "highlights": ["Monatlicher Verlauf", "Vergleich mit dem Durchschnitt", "Klare Metriken"]
+    }
+  },
+  "charging": {
+    "kicker": "Neu · E-Laden",
+    "title": "Dein Elektroauto, immer am Stecker.",
+    "subtitle": "Litro führt dich jetzt auch zum perfekten Ladepunkt: filtere nach Leistung, prüfe den Live-Status und sieh, wie viele Plätze frei sind, bevor du ankommst.",
+    "imageHint": "Bild folgt",
+    "stats": {
+      "points": { "value": "+179.000", "label": "Ladepunkte", "hint": "Community-Daten von Open Charge Map" },
+      "countries": { "value": "91", "label": "abgedeckte Länder", "hint": "dieselben Länder wie im Rest von Litro" },
+      "realtime": { "value": "Live", "label": "Verfügbarkeit", "hint": "von der Community selbst gemeldet" }
+    },
+    "gallery": {
+      "tab": "Tab „Laden“",
+      "power": "Leistungsfilter",
+      "report": "Plätze melden"
+    },
+    "caps": {
+      "power": { "title": "Nach Leistung filtern", "body": "Ein Schieberegler, um nur die Ladepunkte zu behalten, die dich interessieren: vom langsamen Laden bis zum Ultraschnelllader mit 150 kW und mehr." },
+      "report": { "title": "Freie Plätze in Echtzeit", "body": "Sieh, wie viele Anschlüsse frei sind, bevor du einen Umweg machst – dank der Meldungen anderer Fahrer bei ihrer Ankunft." },
+      "status": { "title": "Live-Status", "body": "Jeder Punkt zeigt, ob er in Betrieb oder außer Betrieb ist, damit es bei der Ankunft keine Überraschungen gibt." },
+      "connectors": { "title": "Anschluss-Aufschlüsselung", "body": "Tippe auf die Leistung und klappe jeden Anschlusstyp mit Anzahl der Anschlüsse und gelieferten kW auf." }
+    },
+    "highlight": {
+      "kicker": "Gemeinschaftliche Verfügbarkeit",
+      "title": "Die Community weiß, ob Platz ist.",
+      "body": "Wenn du an einem Ladepunkt ankommst, meldest du ihn mit einem einzigen Tipp: alles frei, wie viele Plätze übrig sind oder ob er belegt oder defekt ist. Alle anderen Fahrer sehen es sofort – ohne Warten, ohne Überraschungen.",
+      "points": [
+        "Melde mit einem Tipp: frei, belegt, Anzahl der Plätze oder defekt",
+        "Zählt nur, wenn du am Punkt bist (Standortprüfung)",
+        "Community-Konsens mit stets aktuellen Daten"
+      ],
+      "imageCaption": "Fenster „Plätze melden“"
     }
   },
   "contact": {

@@ -9,6 +9,7 @@
   },
   "nav": {
     "features": "Funciones",
+    "charging": "Recarga",
     "download": "Descargar",
     "stats": "Cifras",
     "contact": "Contacto",
@@ -182,6 +183,39 @@
       "title": "Mira cuánto llevas ahorrado.",
       "body": "Un contador que registra cada euro que has ahorrado usando Litro. Porque cada repostaje cuenta.",
       "highlights": ["Histórico mensual", "Comparativa con media", "Métricas claras"]
+    }
+  },
+  "charging": {
+    "kicker": "Nuevo · Recarga eléctrica",
+    "title": "Tu coche eléctrico, siempre con enchufe.",
+    "subtitle": "Litro ahora también te guía al punto de recarga perfecto: filtra por potencia, comprueba el estado en vivo y descubre cuántos huecos quedan libres antes de llegar.",
+    "imageHint": "Imagen pendiente",
+    "stats": {
+      "points": { "value": "+179.000", "label": "puntos de carga", "hint": "datos comunitarios de Open Charge Map" },
+      "countries": { "value": "91", "label": "países cubiertos", "hint": "los mismos países que el resto de Litro" },
+      "realtime": { "value": "En vivo", "label": "disponibilidad", "hint": "reportada por la propia comunidad" }
+    },
+    "gallery": {
+      "tab": "Pestaña Recarga",
+      "power": "Filtro por potencia",
+      "report": "Reportar huecos"
+    },
+    "caps": {
+      "power": { "title": "Filtra por potencia", "body": "Un deslizante para quedarte solo con los cargadores que te interesan: desde la recarga lenta hasta la ultrarrápida de 150 kW o más." },
+      "report": { "title": "Huecos en tiempo real", "body": "Mira cuántas tomas quedan libres antes de desviarte, gracias a los avisos que dejan otros conductores al llegar al punto." },
+      "status": { "title": "Estado en vivo", "body": "Cada punto muestra si está operativo o fuera de servicio, para que no te lleves sorpresas al llegar." },
+      "connectors": { "title": "Desglose de conectores", "body": "Toca la potencia y despliega cada tipo de conector con su número de tomas y los kW que entrega." }
+    },
+    "highlight": {
+      "kicker": "Disponibilidad colaborativa",
+      "title": "La comunidad sabe si hay sitio.",
+      "body": "Cuando llegas a un punto de carga, avisas con un solo toque: todo libre, cuántos huecos quedan o si está ocupado o averiado. El resto de conductores lo ven al instante, sin esperas y sin sorpresas.",
+      "points": [
+        "Reporta en un toque: libre, ocupado, nº de huecos o averiado",
+        "Solo cuenta si estás en el punto (verificación por ubicación)",
+        "Consenso de la comunidad con datos siempre recientes"
+      ],
+      "imageCaption": "Modal «Reportar huecos»"
     }
   },
   "contact": {

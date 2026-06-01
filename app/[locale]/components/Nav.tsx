@@ -52,6 +52,7 @@ export function Nav() {
 
   const links = [
     { key: "features", href: "/#features", external: false },
+    { key: "charging", href: "/#charging", external: false },
     { key: "stats", href: "/#stats", external: false },
     { key: "about", href: "/#about", external: false },
     { key: "contact", href: "/#contact", external: false },

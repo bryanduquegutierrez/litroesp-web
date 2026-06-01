@@ -9,6 +9,7 @@
   },
   "nav": {
     "features": "Fonctionnalités",
+    "charging": "Recharge",
     "download": "Télécharger",
     "stats": "Chiffres",
     "contact": "Contact",
@@ -182,6 +183,39 @@
       "title": "Voyez tout ce que vous avez économisé.",
       "body": "Un compteur qui enregistre chaque euro économisé avec Litro. Parce que chaque plein compte.",
       "highlights": ["Historique mensuel", "Comparaison avec la moyenne", "Métriques claires"]
+    }
+  },
+  "charging": {
+    "kicker": "Nouveau · Recharge électrique",
+    "title": "Votre voiture électrique, toujours branchée.",
+    "subtitle": "Litro vous guide désormais aussi vers la borne parfaite : filtrez par puissance, vérifiez l'état en direct et découvrez combien de places sont libres avant d'arriver.",
+    "imageHint": "Image à venir",
+    "stats": {
+      "points": { "value": "+179 000", "label": "points de recharge", "hint": "données communautaires d'Open Charge Map" },
+      "countries": { "value": "91", "label": "pays couverts", "hint": "les mêmes pays que le reste de Litro" },
+      "realtime": { "value": "En direct", "label": "disponibilité", "hint": "signalée par la communauté elle-même" }
+    },
+    "gallery": {
+      "tab": "Onglet Recharge",
+      "power": "Filtre par puissance",
+      "report": "Signaler des places"
+    },
+    "caps": {
+      "power": { "title": "Filtrez par puissance", "body": "Un curseur pour ne garder que les bornes qui vous intéressent : de la recharge lente à l'ultra-rapide de 150 kW et plus." },
+      "report": { "title": "Places libres en temps réel", "body": "Voyez combien de prises sont libres avant de faire un détour, grâce aux signalements laissés par les autres conducteurs à leur arrivée." },
+      "status": { "title": "État en direct", "body": "Chaque point indique s'il est en service ou hors service, pour éviter les mauvaises surprises à l'arrivée." },
+      "connectors": { "title": "Détail des connecteurs", "body": "Touchez la puissance pour déployer chaque type de connecteur avec son nombre de prises et les kW délivrés." }
+    },
+    "highlight": {
+      "kicker": "Disponibilité collaborative",
+      "title": "La communauté sait s'il y a de la place.",
+      "body": "En arrivant à une borne, vous la signalez d'un seul geste : tout libre, combien de places restent, ou si elle est occupée ou en panne. Tous les autres conducteurs le voient instantanément, sans attente ni surprise.",
+      "points": [
+        "Signalez en un geste : libre, occupé, nombre de places ou en panne",
+        "Ne compte que si vous êtes à la borne (vérification de position)",
+        "Consensus de la communauté avec des données toujours fraîches"
+      ],
+      "imageCaption": "Fenêtre « Signaler des places »"
     }
   },
   "contact": {

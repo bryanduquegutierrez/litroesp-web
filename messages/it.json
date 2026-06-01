@@ -9,6 +9,7 @@
   },
   "nav": {
     "features": "Funzioni",
+    "charging": "Ricarica",
     "download": "Scarica",
     "stats": "Numeri",
     "contact": "Contatti",
@@ -182,6 +183,39 @@
       "title": "Guarda quanto hai risparmiato.",
       "body": "Un contatore che registra ogni euro che hai risparmiato con Litro. Perché ogni rifornimento conta.",
       "highlights": ["Storico mensile", "Confronto con la media", "Metriche chiare"]
+    }
+  },
+  "charging": {
+    "kicker": "Nuovo · Ricarica elettrica",
+    "title": "La tua auto elettrica, sempre alla spina.",
+    "subtitle": "Litro ora ti guida anche alla colonnina perfetta: filtra per potenza, controlla lo stato in tempo reale e scopri quanti posti sono liberi prima di arrivare.",
+    "imageHint": "Immagine in arrivo",
+    "stats": {
+      "points": { "value": "+179.000", "label": "punti di ricarica", "hint": "dati della community di Open Charge Map" },
+      "countries": { "value": "91", "label": "paesi coperti", "hint": "gli stessi paesi del resto di Litro" },
+      "realtime": { "value": "Live", "label": "disponibilità", "hint": "segnalata dalla community stessa" }
+    },
+    "gallery": {
+      "tab": "Scheda Ricarica",
+      "power": "Filtro per potenza",
+      "report": "Segnala posti liberi"
+    },
+    "caps": {
+      "power": { "title": "Filtra per potenza", "body": "Un cursore per tenere solo le colonnine che ti interessano: dalla ricarica lenta all'ultrarapida da 150 kW e oltre." },
+      "report": { "title": "Posti liberi in tempo reale", "body": "Vedi quante prese sono libere prima di deviare, grazie alle segnalazioni che lasciano gli altri conducenti all'arrivo." },
+      "status": { "title": "Stato in tempo reale", "body": "Ogni punto mostra se è operativo o fuori servizio, così non avrai sorprese all'arrivo." },
+      "connectors": { "title": "Dettaglio connettori", "body": "Tocca la potenza ed espandi ogni tipo di connettore con il numero di prese e i kW erogati." }
+    },
+    "highlight": {
+      "kicker": "Disponibilità condivisa",
+      "title": "La community sa se c'è posto.",
+      "body": "Quando arrivi a una colonnina, la segnali con un solo tocco: tutto libero, quanti posti restano o se è piena o guasta. Tutti gli altri conducenti lo vedono all'istante, senza attese e senza sorprese.",
+      "points": [
+        "Segnala con un tocco: libero, pieno, numero di posti o guasto",
+        "Conta solo se sei alla colonnina (verifica della posizione)",
+        "Consenso della community con dati sempre aggiornati"
+      ],
+      "imageCaption": "Finestra «Segnala posti liberi»"
     }
   },
   "contact": {

@@ -9,6 +9,7 @@
   },
   "nav": {
     "features": "Funcionalidades",
+    "charging": "Recarga",
     "download": "Descarregar",
     "stats": "Números",
     "contact": "Contacto",
@@ -182,6 +183,39 @@
       "title": "Vê quanto já poupaste.",
       "body": "Um contador que regista cada euro que poupaste com a Litro. Porque cada abastecimento conta.",
       "highlights": ["Histórico mensal", "Comparativa com a média", "Métricas claras"]
+    }
+  },
+  "charging": {
+    "kicker": "Novo · Carregamento elétrico",
+    "title": "O teu carro elétrico, sempre na tomada.",
+    "subtitle": "O Litro agora também te guia até ao ponto de carregamento perfeito: filtra por potência, vê o estado em direto e descobre quantos lugares estão livres antes de chegar.",
+    "imageHint": "Imagem brevemente",
+    "stats": {
+      "points": { "value": "+179.000", "label": "pontos de carga", "hint": "dados da comunidade do Open Charge Map" },
+      "countries": { "value": "91", "label": "países cobertos", "hint": "os mesmos países que o resto do Litro" },
+      "realtime": { "value": "Em direto", "label": "disponibilidade", "hint": "reportada pela própria comunidade" }
+    },
+    "gallery": {
+      "tab": "Separador Recarga",
+      "power": "Filtro por potência",
+      "report": "Reportar lugares"
+    },
+    "caps": {
+      "power": { "title": "Filtra por potência", "body": "Um cursor para ficares só com os carregadores que te interessam: da carga lenta à ultrarrápida de 150 kW ou mais." },
+      "report": { "title": "Lugares livres em tempo real", "body": "Vê quantas tomadas estão livres antes de te desviares, graças aos avisos que outros condutores deixam ao chegar ao ponto." },
+      "status": { "title": "Estado em direto", "body": "Cada ponto mostra se está operacional ou fora de serviço, para não teres surpresas à chegada." },
+      "connectors": { "title": "Detalhe de conectores", "body": "Toca na potência e expande cada tipo de conector com o número de tomadas e os kW que fornece." }
+    },
+    "highlight": {
+      "kicker": "Disponibilidade colaborativa",
+      "title": "A comunidade sabe se há lugar.",
+      "body": "Quando chegas a um ponto de carga, avisas com um único toque: tudo livre, quantos lugares restam ou se está ocupado ou avariado. Todos os outros condutores veem na hora, sem esperas e sem surpresas.",
+      "points": [
+        "Reporta num toque: livre, ocupado, nº de lugares ou avariado",
+        "Só conta se estiveres no ponto (verificação por localização)",
+        "Consenso da comunidade com dados sempre recentes"
+      ],
+      "imageCaption": "Janela «Reportar lugares»"
     }
   },
   "contact": {

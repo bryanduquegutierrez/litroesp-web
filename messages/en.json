@@ -9,6 +9,7 @@
   },
   "nav": {
     "features": "Features",
+    "charging": "Charging",
     "download": "Download",
     "stats": "Numbers",
     "contact": "Contact",
@@ -182,6 +183,39 @@
       "title": "See how much you've saved.",
       "body": "A counter that tracks every euro you've saved with Litro. Because every fill-up matters.",
       "highlights": ["Monthly history", "Compare vs. average", "Clear metrics"]
+    }
+  },
+  "charging": {
+    "kicker": "New · EV charging",
+    "title": "Your electric car, always plugged in.",
+    "subtitle": "Litro now also guides you to the perfect charging point: filter by power, check the live status and find out how many spots are free before you arrive.",
+    "imageHint": "Image coming soon",
+    "stats": {
+      "points": { "value": "+179,000", "label": "charging points", "hint": "community data from Open Charge Map" },
+      "countries": { "value": "91", "label": "countries covered", "hint": "the same countries as the rest of Litro" },
+      "realtime": { "value": "Live", "label": "availability", "hint": "reported by the community itself" }
+    },
+    "gallery": {
+      "tab": "Charging tab",
+      "power": "Power filter",
+      "report": "Report free spots"
+    },
+    "caps": {
+      "power": { "title": "Filter by power", "body": "A slider to keep only the chargers you care about: from slow charging all the way to 150 kW+ ultra-fast." },
+      "report": { "title": "Free spots in real time", "body": "See how many connectors are free before you make a detour, thanks to the reports other drivers leave when they reach the point." },
+      "status": { "title": "Live status", "body": "Each point shows whether it's operational or out of service, so there are no surprises when you get there." },
+      "connectors": { "title": "Connector breakdown", "body": "Tap the power to expand every connector type with its number of plugs and the kW it delivers." }
+    },
+    "highlight": {
+      "kicker": "Crowdsourced availability",
+      "title": "The community knows if there's room.",
+      "body": "When you reach a charging point, you report it with a single tap: all free, how many spots are left, or whether it's full or broken. Every other driver sees it instantly — no waiting, no surprises.",
+      "points": [
+        "Report in one tap: free, full, number of spots or broken",
+        "Only counts if you're at the point (location check)",
+        "Community consensus with always-fresh data"
+      ],
+      "imageCaption": "“Report free spots” modal"
     }
   },
   "contact": {
