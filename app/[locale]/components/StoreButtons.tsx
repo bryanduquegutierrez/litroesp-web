@@ -8,8 +8,8 @@ import { QRCodeSVG } from "qrcode.react";
 const APP_STORE_URL =
   "https://apps.apple.com/es/app/litro/id6761688926?l=en-GB";
 
-// TODO: reemplazar cuando se publique en Google Play
-const PLAY_STORE_URL = "";
+const PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.litroesp.app";
 
 type DeviceType = "ios" | "android" | "desktop";
 
