@@ -11,6 +11,9 @@ const APP_STORE_URL =
 const PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.litroesp.app";
 
+// QR del escritorio: una única URL que detecta el SO y redirige a la store correcta.
+const DOWNLOAD_URL = "https://litroesp.com/descargar";
+
 type DeviceType = "ios" | "android" | "desktop";
 
 function detectDevice(): DeviceType {
@@ -104,7 +107,7 @@ export function StoreButtons({ centered = false }: { centered?: boolean }) {
       <div className="flex flex-col items-center gap-4">
         <div className="p-4 bg-white rounded-2xl shadow-lg shadow-black/10">
           <QRCodeSVG
-            value={APP_STORE_URL}
+            value={DOWNLOAD_URL}
             size={160}
             level="M"
             includeMargin={false}
