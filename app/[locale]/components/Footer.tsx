@@ -7,6 +7,8 @@ export function Footer() {
   const t = useTranslations("footer");
   const locale = useLocale();
   const year = new Date().getFullYear();
+  // Prefija la ruta con el idioma actual (localePrefix "as-needed": es va sin prefijo).
+  const localized = (path: string) => (locale === "es" ? path : `/${locale}${path}`);
   return (
     <footer className="border-t border-black/5 py-12 px-6">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
@@ -19,14 +21,14 @@ export function Footer() {
 
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:gap-x-6 text-sm text-[color:var(--muted)]">
           <Link
-            href="/privacy"
+            href={localized("/privacy")}
             className="hover:text-[color:var(--fg)] transition-colors"
           >
             {t("privacy")}
           </Link>
           <span aria-hidden>·</span>
           <Link
-            href="/delete-account"
+            href={localized("/delete-account")}
             className="hover:text-[color:var(--fg)] transition-colors"
           >
             {t("deleteAccount")}

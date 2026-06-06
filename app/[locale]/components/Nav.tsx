@@ -32,7 +32,7 @@ export function Nav() {
 
   // Cierra el drawer cuando cambia el viewport a desktop
   useEffect(() => {
-    const mq = window.matchMedia("(min-width: 768px)");
+    const mq = window.matchMedia("(min-width: 1024px)");
     const onChange = (e: MediaQueryListEvent) => { if (e.matches) setDrawerOpen(false); };
     mq.addEventListener("change", onChange);
     return () => mq.removeEventListener("change", onChange);
@@ -69,9 +69,9 @@ export function Nav() {
             : "bg-transparent"
         }`}
       >
-        <nav className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between md:grid md:grid-cols-3">
+        <nav className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between gap-4">
           {/* Logo (izquierda) */}
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-start shrink-0">
             <Link href={`/${locale}`} className="flex items-center gap-2 group">
               <Image
                 src="/assets/icon.png"
@@ -86,24 +86,26 @@ export function Nav() {
             </Link>
           </div>
 
-          {/* Enlaces (centro) — solo visibles en desktop */}
-          <div className="hidden md:flex items-center justify-center gap-6">
+          {/* Enlaces (centro) — solo visibles en desktop ancho (lg+) para que los 7
+              enlaces nunca se desborden ni tapen el último (Privacidad). Debajo de lg
+              se usa el menú hamburguesa, que los lista todos. */}
+          <div className="hidden lg:flex flex-1 items-center justify-center gap-5 min-w-0">
             {links.map(l => (
               l.external
-                ? <Link key={l.key} href={l.href} className={linkClass}>{t(l.key)}</Link>
-                : <a key={l.key} href={l.href} className={linkClass}>{t(l.key)}</a>
+                ? <Link key={l.key} href={l.href} className={`${linkClass} whitespace-nowrap`}>{t(l.key)}</Link>
+                : <a key={l.key} href={l.href} className={`${linkClass} whitespace-nowrap`}>{t(l.key)}</a>
             ))}
           </div>
 
           {/* Idioma + hamburguesa (derecha) */}
-          <div className="flex items-center justify-end gap-2">
+          <div className="flex items-center justify-end gap-2 shrink-0">
             <LocaleSwitcher scrolled={scrolled} />
-            {/* Botón hamburguesa visible solo en móvil */}
+            {/* Botón hamburguesa: visible hasta lg (móvil + tablet + laptop estrecho) */}
             <button
               type="button"
               onClick={() => setDrawerOpen(true)}
               aria-label={t("menu")}
-              className={`md:hidden flex items-center justify-center w-9 h-9 rounded-full border transition-colors ${burgerClass}`}
+              className={`lg:hidden flex items-center justify-center w-9 h-9 rounded-full border transition-colors ${burgerClass}`}
             >
               <Menu className="w-5 h-5" />
             </button>
@@ -113,7 +115,7 @@ export function Nav() {
 
       {/* Drawer móvil */}
       {drawerOpen && (
-        <div className="fixed inset-0 z-[60] md:hidden">
+        <div className="fixed inset-0 z-[60] lg:hidden">
           {/* Backdrop */}
           <div
             onClick={() => setDrawerOpen(false)}
